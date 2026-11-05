@@ -1,0 +1,43 @@
+running egg_info
+creating ../build/helpers/helpers.egg-info
+writing ../build/helpers/helpers.egg-info/PKG-INFO
+writing dependency_links to ../build/helpers/helpers.egg-info/dependency_links.txt
+writing entry points to ../build/helpers/helpers.egg-info/entry_points.txt
+writing requirements to ../build/helpers/helpers.egg-info/requires.txt
+writing top-level names to ../build/helpers/helpers.egg-info/top_level.txt
+writing manifest file '../build/helpers/helpers.egg-info/SOURCES.txt'
+reading manifest file '../build/helpers/helpers.egg-info/SOURCES.txt'
+writing manifest file '../build/helpers/helpers.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build
+creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib
+creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers
+copying helpers/node_q_1_1.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers
+copying helpers/node_q_1_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers
+copying helpers/node_q_4_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers
+copying helpers/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers
+running install
+running install_lib
+creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers
+copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers/node_q_1_1.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers
+copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers/node_q_1_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers
+copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers/node_q_4_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers
+copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers
+byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers/node_q_1_1.py to node_q_1_1.cpython-312.pyc
+byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers/node_q_1_2.py to node_q_1_2.cpython-312.pyc
+byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers/node_q_4_2.py to node_q_4_2.cpython-312.pyc
+byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/ament_index
+creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/ament_index/resource_index
+creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/ament_index/resource_index/packages
+copying resource/helpers -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/helpers
+running install_egg_info
+Copying ../build/helpers/helpers.egg-info to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers-0.0.0-py3.12.egg-info
+running install_scripts
+Installing node_q_1_1 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/helpers
+Installing node_q_1_2 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/helpers
+Installing node_q_4_2 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/helpers
+writing list of installed files to '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/install.log'

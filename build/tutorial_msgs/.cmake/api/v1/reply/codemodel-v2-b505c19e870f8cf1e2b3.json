@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5cfa153672b7fa349743.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "tutorial_msgs__py",
+					"jsonFile" : "directory-tutorial_msgs__py-96e055c29638e0ec3883.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs/tutorial_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "tutorial_msgs__rs",
+					"jsonFile" : "directory-tutorial_msgs__rs-d722664d70d6ded63cf4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs/tutorial_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "tutorial_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_tutorial_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_tutorial_msgs_egg-50d19c916447674a54a9.json",
+					"name" : "ament_cmake_python_build_tutorial_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_tutorial_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_tutorial_msgs-c25e078d7f3b2bc31b55.json",
+					"name" : "ament_cmake_python_copy_tutorial_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_msgs-fd9fe304e75f318315e5.json",
+					"name" : "tutorial_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_msgs__cpp-088ff37c28011c166c69.json",
+					"name" : "tutorial_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tutorial_msgs__py::@bc69fdb9e7d8b522247f",
+					"jsonFile" : "target-tutorial_msgs__py-9526c6c13aed80d12036.json",
+					"name" : "tutorial_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_msgs__rosidl_generator_c-e7f243be684804e980fa.json",
+					"name" : "tutorial_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_msgs__rosidl_generator_py-5106ff4cc09c5d9962f8.json",
+					"name" : "tutorial_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_msgs__rosidl_generator_type_description-5d3c9020095877ded43d.json",
+					"name" : "tutorial_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_msgs__rosidl_typesupport_c-d0f2c24e4d7937512d5f.json",
+					"name" : "tutorial_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_msgs__rosidl_typesupport_cpp-51fae8e7913b27d79bb5.json",
+					"name" : "tutorial_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_msgs__rosidl_typesupport_fastrtps_c-16a2c69bb9ff5b372cfd.json",
+					"name" : "tutorial_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_msgs__rosidl_typesupport_fastrtps_cpp-de9693ec48b4a037362b.json",
+					"name" : "tutorial_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_msgs__rosidl_typesupport_introspection_c-52313a5b503e1658a9f5.json",
+					"name" : "tutorial_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_msgs__rosidl_typesupport_introspection_cpp-1f9fbd850cb27666208b.json",
+					"name" : "tutorial_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tutorial_msgs__rs::@6be1c401f2dab8e31a1a",
+					"jsonFile" : "target-tutorial_msgs__rs-f03118c9bf9d207c492b.json",
+					"name" : "tutorial_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_msgs_s__rosidl_typesupport_c-c050eeaee63214c84266.json",
+					"name" : "tutorial_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_msgs_s__rosidl_typesupport_fastrtps_c-d6f86f1ffbfa3edf5121.json",
+					"name" : "tutorial_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_msgs_s__rosidl_typesupport_introspection_c-fa3998e5f831501ee24f.json",
+					"name" : "tutorial_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_msgs_uninstall-bc7707d359762d2b3fc0.json",
+					"name" : "tutorial_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1ce82492ea3f145bd47b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs",
+		"source" : "/home/ros-tutorial/colcon_ws/src/ros-tutorial/tutorial_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

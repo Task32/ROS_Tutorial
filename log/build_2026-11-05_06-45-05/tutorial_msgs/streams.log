@@ -1,0 +1,262 @@
+[0.946s] Invoking command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros-tutorial/colcon_ws/src/ros-tutorial/tutorial_msgs -DCMAKE_INSTALL_PREFIX=/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs
+[1.306s] -- The C compiler identification is GNU 13.3.0
+[1.579s] -- The CXX compiler identification is GNU 13.3.0
+[1.646s] -- Detecting C compiler ABI info
+[2.475s] -- Detecting C compiler ABI info - done
+[2.547s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.549s] -- Detecting C compile features
+[2.551s] -- Detecting C compile features - done
+[2.600s] -- Detecting CXX compiler ABI info
+[3.375s] -- Detecting CXX compiler ABI info - done
+[3.459s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.463s] -- Detecting CXX compile features
+[3.465s] -- Detecting CXX compile features - done
+[3.538s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.811s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.495s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.571s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.054s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.550s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.591s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[5.792s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[8.571s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[12.741s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[18.504s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[18.526s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[18.689s] -- Found PythonExtra: /usr/bin/python3  
+[19.193s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[21.959s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[22.006s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[22.785s] -- Added test 'lint_cmake' to check CMake code style
+[22.964s] -- Added test 'xmllint' to check XML markup files
+[23.412s] -- Configuring done (22.4s)
+[25.405s] -- Generating done (1.8s)
+[26.320s] -- Build files have been written to: /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs
+[26.331s] Invoked command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros-tutorial/colcon_ws/src/ros-tutorial/tutorial_msgs -DCMAKE_INSTALL_PREFIX=/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs
+[26.341s] Invoking command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs -- -j16 -l16
+[26.617s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[26.632s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[26.671s] [  5%] Built target ament_cmake_python_copy_tutorial_msgs
+[26.919s] [  5%] Built target tutorial_msgs__rosidl_generator_type_description
+[26.977s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[27.006s] [ 11%] Built target tutorial_msgs__rs
+[27.009s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[27.019s] running egg_info
+[27.021s] creating tutorial_msgs.egg-info
+[27.044s] writing tutorial_msgs.egg-info/PKG-INFO
+[27.048s] writing dependency_links to tutorial_msgs.egg-info/dependency_links.txt
+[27.054s] writing top-level names to tutorial_msgs.egg-info/top_level.txt
+[27.058s] writing manifest file 'tutorial_msgs.egg-info/SOURCES.txt'
+[27.143s] reading manifest file 'tutorial_msgs.egg-info/SOURCES.txt'
+[27.169s] writing manifest file 'tutorial_msgs.egg-info/SOURCES.txt'
+[27.225s] [ 11%] Built target ament_cmake_python_build_tutorial_msgs_egg
+[27.473s] [ 11%] Built target tutorial_msgs__cpp
+[27.562s] gmake[2]: Warning: File 'rosidl_generator_c/tutorial_msgs/srv/detail/get_buoy_location__description.c' has modification time 0.17 s in the future
+[27.585s] [ 14%] [32mBuilding C object CMakeFiles/tutorial_msgs__rosidl_generator_c.dir/rosidl_generator_c/tutorial_msgs/srv/detail/get_buoy_location__description.c.o[0m
+[27.590s] [ 17%] [32mBuilding C object CMakeFiles/tutorial_msgs__rosidl_generator_c.dir/rosidl_generator_c/tutorial_msgs/srv/detail/get_buoy_location__functions.c.o[0m
+[27.602s] [ 20%] [32mBuilding C object CMakeFiles/tutorial_msgs__rosidl_generator_c.dir/rosidl_generator_c/tutorial_msgs/srv/detail/get_buoy_location__type_support.c.o[0m
+[27.785s] [ 22%] [32m[1mLinking C shared library libtutorial_msgs__rosidl_generator_c.so[0m
+[27.925s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[27.956s] [ 22%] Built target tutorial_msgs__rosidl_generator_c
+[28.011s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[28.013s] [ 37%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[28.015s] [ 37%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[28.017s] [ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[28.019s] [ 37%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[28.024s] [ 40%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[28.380s] gmake[2]: Warning: File 'rosidl_typesupport_cpp/tutorial_msgs/srv/get_buoy_location__type_support.cpp' has modification time 0.21 s in the future
+[28.395s] gmake[2]: Warning: File 'rosidl_typesupport_c/tutorial_msgs/srv/get_buoy_location__type_support.cpp' has modification time 0.21 s in the future
+[28.407s] [ 42%] [32mBuilding CXX object CMakeFiles/tutorial_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_msgs/srv/get_buoy_location__type_support.cpp.o[0m
+[28.425s] [ 45%] [32mBuilding CXX object CMakeFiles/tutorial_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_msgs/srv/get_buoy_location__type_support.cpp.o[0m
+[28.457s] gmake[2]: Warning: File 'rosidl_typesupport_introspection_cpp/tutorial_msgs/srv/detail/get_buoy_location__type_support.cpp' has modification time 0.22 s in the future
+[28.478s] gmake[2]: Warning: File 'rosidl_typesupport_introspection_c/tutorial_msgs/srv/detail/get_buoy_location__type_support.c' has modification time 0.22 s in the future
+[28.487s] [ 48%] [32mBuilding CXX object CMakeFiles/tutorial_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_msgs/srv/detail/get_buoy_location__type_support.cpp.o[0m
+[28.508s] [ 51%] [32mBuilding C object CMakeFiles/tutorial_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_msgs/srv/detail/get_buoy_location__type_support.c.o[0m
+[28.538s] gmake[2]: Warning: File 'rosidl_typesupport_fastrtps_cpp/tutorial_msgs/srv/detail/dds_fastrtps/get_buoy_location__type_support.cpp' has modification time 0.17 s in the future
+[28.541s] gmake[2]: Warning: File 'rosidl_typesupport_fastrtps_c/tutorial_msgs/srv/detail/get_buoy_location__type_support_c.cpp' has modification time 0.23 s in the future
+[28.569s] [ 57%] [32mBuilding CXX object CMakeFiles/tutorial_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_msgs/srv/detail/dds_fastrtps/get_buoy_location__type_support.cpp.o[0m
+[28.573s] [ 57%] [32mBuilding CXX object CMakeFiles/tutorial_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_msgs/srv/detail/get_buoy_location__type_support_c.cpp.o[0m
+[28.743s] [ 60%] [32m[1mLinking CXX shared library libtutorial_msgs__rosidl_typesupport_c.so[0m
+[28.862s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[28.894s] [ 60%] Built target tutorial_msgs__rosidl_typesupport_c
+[28.924s] [ 62%] [32m[1mLinking C shared library libtutorial_msgs__rosidl_typesupport_introspection_c.so[0m
+[29.043s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[29.074s] [ 62%] Built target tutorial_msgs__rosidl_typesupport_introspection_c
+[29.478s] [ 65%] [32m[1mLinking CXX shared library libtutorial_msgs__rosidl_typesupport_cpp.so[0m
+[29.701s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[29.729s] [ 65%] Built target tutorial_msgs__rosidl_typesupport_cpp
+[29.776s] [ 68%] [32m[1mLinking CXX shared library libtutorial_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[29.866s] [ 71%] [32m[1mLinking CXX shared library libtutorial_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[30.010s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[30.042s] [ 71%] Built target tutorial_msgs__rosidl_typesupport_introspection_cpp
+[30.069s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[30.098s] [ 71%] Built target tutorial_msgs__rosidl_typesupport_fastrtps_c
+[30.227s] [ 74%] [32m[1mLinking CXX shared library libtutorial_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[30.482s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[30.509s] [ 74%] Built target tutorial_msgs__rosidl_typesupport_fastrtps_cpp
+[30.569s] [ 74%] Built target tutorial_msgs
+[30.647s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[31.086s] [ 77%] Built target tutorial_msgs__py
+[31.190s] [ 80%] [32mBuilding C object CMakeFiles/tutorial_msgs__rosidl_generator_py.dir/rosidl_generator_py/tutorial_msgs/srv/_get_buoy_location_s.c.o[0m
+[31.755s] [ 82%] [32m[1mLinking C shared library libtutorial_msgs__rosidl_generator_py.so[0m
+[31.905s] [ 82%] Built target tutorial_msgs__rosidl_generator_py
+[31.990s] [ 91%] [32mBuilding C object CMakeFiles/tutorial_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/tutorial_msgs/_tutorial_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[31.992s] [ 91%] [32mBuilding C object CMakeFiles/tutorial_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/tutorial_msgs/_tutorial_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[31.993s] [ 91%] [32mBuilding C object CMakeFiles/tutorial_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/tutorial_msgs/_tutorial_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[32.476s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_c.so[0m
+[32.568s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[32.584s] [100%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[32.656s] [100%] Built target tutorial_msgs_s__rosidl_typesupport_c
+[32.700s] [100%] Built target tutorial_msgs_s__rosidl_typesupport_introspection_c
+[32.726s] [100%] Built target tutorial_msgs_s__rosidl_typesupport_fastrtps_c
+[32.870s] Invoked command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs -- -j16 -l16
+[32.905s] Invoking command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs
+[32.927s] -- Install configuration: ""
+[32.965s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/ament_index/resource_index/rosidl_interfaces/tutorial_msgs
+[33.073s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/srv/GetBuoyLocation.json
+[33.138s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs
+[33.170s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg
+[33.207s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg/rosidl_generator_c__visibility_control.h
+[33.287s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv
+[33.320s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail
+[33.363s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__description.c
+[33.475s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__functions.c
+[33.587s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__functions.h
+[33.695s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__struct.h
+[33.790s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__type_support.c
+[33.890s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__type_support.h
+[33.987s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/get_buoy_location.h
+[34.070s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/environment/library_path.sh
+[34.136s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/environment/library_path.dsv
+[34.199s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_generator_c.so
+[34.283s] -- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_generator_c.so" to ""
+[34.295s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs
+[34.326s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg
+[34.357s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[34.439s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv
+[34.468s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail
+[34.503s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__rosidl_typesupport_fastrtps_c.h
+[34.600s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_fastrtps_c.so
+[34.685s] -- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[34.697s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs
+[34.720s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg
+[34.747s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[34.834s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv
+[34.866s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail
+[34.939s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__rosidl_typesupport_introspection_c.h
+[35.048s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__type_support.c
+[35.152s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_introspection_c.so
+[35.240s] -- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_introspection_c.so" to ""
+[35.261s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_c.so
+[35.352s] -- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_c.so" to ""
+[35.364s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs
+[35.390s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg
+[35.417s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[35.501s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv
+[35.534s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail
+[35.573s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__builder.hpp
+[35.678s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__struct.hpp
+[35.789s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__traits.hpp
+[35.893s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__type_support.hpp
+[35.985s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/get_buoy_location.hpp
+[36.063s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs
+[36.088s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg
+[36.120s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[36.203s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv
+[36.235s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail
+[36.264s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/dds_fastrtps
+[36.313s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__rosidl_typesupport_fastrtps_cpp.hpp
+[36.400s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_fastrtps_cpp.so
+[36.504s] -- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[36.517s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs
+[36.543s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv
+[36.574s] -- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail
+[36.606s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__rosidl_typesupport_introspection_cpp.hpp
+[36.704s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__type_support.cpp
+[36.796s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_introspection_cpp.so
+[36.882s] -- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[36.897s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_cpp.so
+[36.981s] -- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_cpp.so" to ""
+[36.999s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/environment/pythonpath.sh
+[37.072s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/environment/pythonpath.dsv
+[37.148s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs-0.0.0-py3.12.egg-info
+[37.194s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[37.281s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[37.371s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[37.455s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[37.529s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs
+[37.565s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/srv
+[37.605s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/srv/_get_buoy_location.py
+[37.692s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/srv/_get_buoy_location_s.c
+[37.787s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/srv/__init__.py
+[37.870s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_c.so
+[37.943s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_fastrtps_c.so
+[38.031s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_introspection_c.so
+[38.131s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/_tutorial_msgs_s.ep.rosidl_typesupport_c.c
+[38.211s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/_tutorial_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[38.292s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/_tutorial_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[38.368s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/__init__.py
+[38.701s] Listing '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs'...
+[38.702s] Compiling '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/__init__.py'...
+[38.704s] Listing '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/srv'...
+[38.705s] Compiling '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/srv/__init__.py'...
+[38.707s] Compiling '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/srv/_get_buoy_location.py'...
+[38.759s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_fastrtps_c.so
+[38.876s] -- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[38.936s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_introspection_c.so
+[39.061s] -- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[39.127s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_c.so
+[39.253s] -- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_c.so" to ""
+[39.271s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_generator_py.so
+[39.359s] -- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_generator_py.so" to ""
+[39.369s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/rust
+[39.398s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/rust/build.rs
+[39.469s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/rust/Cargo.toml
+[39.531s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/rust/src
+[39.574s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/rust/src/lib.rs
+[39.654s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/rust/src/srv
+[39.699s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/rust/src/srv/rmw.rs
+[39.792s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/rust/src/srv.rs
+[39.880s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/srv/GetBuoyLocation.idl
+[39.958s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/srv/GetBuoyLocation.srv
+[40.050s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/ament_index/resource_index/package_run_dependencies/tutorial_msgs
+[40.155s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/ament_index/resource_index/parent_prefix_path/tutorial_msgs
+[40.233s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/environment/ament_prefix_path.sh
+[40.292s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/environment/ament_prefix_path.dsv
+[40.353s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/environment/path.sh
+[40.411s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/environment/path.dsv
+[40.478s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/local_setup.bash
+[40.535s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/local_setup.sh
+[40.591s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/local_setup.zsh
+[40.650s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/local_setup.dsv
+[40.707s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/package.dsv
+[40.789s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/ament_index/resource_index/packages/tutorial_msgs
+[40.888s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/export_tutorial_msgs__rosidl_generator_cExport.cmake
+[40.964s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/export_tutorial_msgs__rosidl_generator_cExport-noconfig.cmake
+[41.041s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/export_tutorial_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[41.117s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/export_tutorial_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[41.191s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgs__rosidl_typesupport_introspection_cExport.cmake
+[41.270s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[41.351s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgs__rosidl_typesupport_cExport.cmake
+[41.426s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[41.500s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/export_tutorial_msgs__rosidl_generator_cppExport.cmake
+[41.581s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/export_tutorial_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[41.657s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/export_tutorial_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[41.744s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[41.823s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[41.903s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgs__rosidl_typesupport_cppExport.cmake
+[41.984s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[42.060s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/export_tutorial_msgs__rosidl_generator_pyExport.cmake
+[42.136s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/export_tutorial_msgs__rosidl_generator_pyExport-noconfig.cmake
+[42.213s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/rosidl_cmake-extras.cmake
+[42.277s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[42.342s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[42.412s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[42.476s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[42.541s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[42.610s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[42.680s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[42.746s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgsConfig.cmake
+[42.805s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgsConfig-version.cmake
+[42.876s] -- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/package.xml
+[42.947s] Invoked command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs

@@ -1,0 +1,72 @@
+[2.726s] Invoking command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/student_code': PYTHONPATH=/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/student_code build --build-base /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build install --record /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/install.log --install-scripts $base/lib/student_code --single-version-externally-managed install_data
+[3.574s] running egg_info
+[3.578s] creating ../build/student_code/student_code.egg-info
+[3.606s] writing ../build/student_code/student_code.egg-info/PKG-INFO
+[3.617s] writing dependency_links to ../build/student_code/student_code.egg-info/dependency_links.txt
+[3.623s] writing entry points to ../build/student_code/student_code.egg-info/entry_points.txt
+[3.628s] writing requirements to ../build/student_code/student_code.egg-info/requires.txt
+[3.634s] writing top-level names to ../build/student_code/student_code.egg-info/top_level.txt
+[3.640s] writing manifest file '../build/student_code/student_code.egg-info/SOURCES.txt'
+[3.771s] reading manifest file '../build/student_code/student_code.egg-info/SOURCES.txt'
+[3.846s] writing manifest file '../build/student_code/student_code.egg-info/SOURCES.txt'
+[3.850s] running build
+[3.852s] running build_py
+[3.856s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build
+[3.858s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib
+[3.860s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code
+[3.871s] copying student_code/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code
+[3.893s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1
+[3.908s] copying student_code/topic_1/question_1_1.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1
+[3.946s] copying student_code/topic_1/question_1_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1
+[3.981s] copying student_code/topic_1/question_1_3.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1
+[4.011s] copying student_code/topic_1/question_1_4_client.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1
+[4.043s] copying student_code/topic_1/question_1_4_service.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1
+[4.080s] copying student_code/topic_1/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1
+[4.104s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_3
+[4.117s] copying student_code/topic_3/question_3_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_3
+[4.157s] copying student_code/topic_3/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_3
+[4.182s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_4
+[4.194s] copying student_code/topic_4/question_4_3.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_4
+[4.234s] copying student_code/topic_4/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_4
+[4.260s] running install
+[4.270s] running install_lib
+[4.319s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code
+[4.339s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1
+[4.361s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1/question_1_1.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1
+[4.412s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1/question_1_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1
+[4.459s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1/question_1_3.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1
+[4.504s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1/question_1_4_client.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1
+[4.553s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1/question_1_4_service.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1
+[4.598s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1
+[4.651s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_3
+[4.677s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_3/question_3_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_3
+[4.723s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_3/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_3
+[4.767s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_4
+[4.790s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_4/question_4_3.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_4
+[4.834s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_4/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_4
+[4.872s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code
+[4.920s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1/question_1_1.py to question_1_1.cpython-312.pyc
+[4.981s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1/question_1_2.py to question_1_2.cpython-312.pyc
+[5.038s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1/question_1_3.py to question_1_3.cpython-312.pyc
+[5.092s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1/question_1_4_client.py to question_1_4_client.cpython-312.pyc
+[5.154s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1/question_1_4_service.py to question_1_4_service.cpython-312.pyc
+[5.211s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1/__init__.py to __init__.cpython-312.pyc
+[5.276s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_3/question_3_2.py to question_3_2.cpython-312.pyc
+[5.327s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_3/__init__.py to __init__.cpython-312.pyc
+[5.387s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_4/question_4_3.py to question_4_3.cpython-312.pyc
+[5.448s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_4/__init__.py to __init__.cpython-312.pyc
+[5.510s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/__init__.py to __init__.cpython-312.pyc
+[5.556s] running install_data
+[5.564s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/ament_index
+[5.568s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/ament_index/resource_index
+[5.571s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/ament_index/resource_index/packages
+[5.583s] copying resource/student_code -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/ament_index/resource_index/packages
+[5.608s] copying package.xml -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/student_code
+[5.631s] running install_egg_info
+[5.681s] Copying ../build/student_code/student_code.egg-info to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code-0.0.0-py3.12.egg-info
+[5.945s] running install_scripts
+[6.263s] Installing question_1_2 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/student_code
+[6.282s] Installing question_1_3 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/student_code
+[6.298s] Installing question_4_3 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/student_code
+[6.321s] writing list of installed files to '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/install.log'
+[6.381s] Invoked command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/student_code' returned '0': PYTHONPATH=/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/student_code build --build-base /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build install --record /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/install.log --install-scripts $base/lib/student_code --single-version-externally-managed install_data

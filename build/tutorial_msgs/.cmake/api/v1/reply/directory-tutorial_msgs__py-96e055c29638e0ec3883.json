@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tutorial_msgs__py",
+		"source" : "/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs/tutorial_msgs__py"
+	}
+}

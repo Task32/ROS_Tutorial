@@ -1,0 +1,45 @@
+[2.770s] Invoking command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/helpers': PYTHONPATH=/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/helpers build --build-base /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build install --record /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/install.log --install-scripts $base/lib/helpers --single-version-externally-managed install_data
+[3.613s] running egg_info
+[3.615s] creating ../build/helpers/helpers.egg-info
+[3.645s] writing ../build/helpers/helpers.egg-info/PKG-INFO
+[3.652s] writing dependency_links to ../build/helpers/helpers.egg-info/dependency_links.txt
+[3.656s] writing entry points to ../build/helpers/helpers.egg-info/entry_points.txt
+[3.660s] writing requirements to ../build/helpers/helpers.egg-info/requires.txt
+[3.663s] writing top-level names to ../build/helpers/helpers.egg-info/top_level.txt
+[3.671s] writing manifest file '../build/helpers/helpers.egg-info/SOURCES.txt'
+[3.772s] reading manifest file '../build/helpers/helpers.egg-info/SOURCES.txt'
+[3.831s] writing manifest file '../build/helpers/helpers.egg-info/SOURCES.txt'
+[3.836s] running build
+[3.838s] running build_py
+[3.841s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build
+[3.843s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib
+[3.845s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers
+[3.854s] copying helpers/node_q_1_1.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers
+[3.888s] copying helpers/node_q_1_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers
+[3.922s] copying helpers/node_q_4_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers
+[3.953s] copying helpers/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers
+[3.969s] running install
+[3.992s] running install_lib
+[4.047s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers
+[4.067s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers/node_q_1_1.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers
+[4.114s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers/node_q_1_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers
+[4.161s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers/node_q_4_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers
+[4.202s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers
+[4.247s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers/node_q_1_1.py to node_q_1_1.cpython-312.pyc
+[4.296s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers/node_q_1_2.py to node_q_1_2.cpython-312.pyc
+[4.348s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers/node_q_4_2.py to node_q_4_2.cpython-312.pyc
+[4.399s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers/__init__.py to __init__.cpython-312.pyc
+[4.437s] running install_data
+[4.445s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/ament_index
+[4.447s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/ament_index/resource_index
+[4.450s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/ament_index/resource_index/packages
+[4.462s] copying resource/helpers -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/ament_index/resource_index/packages
+[4.496s] copying package.xml -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/helpers
+[4.511s] running install_egg_info
+[4.563s] Copying ../build/helpers/helpers.egg-info to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers-0.0.0-py3.12.egg-info
+[4.864s] running install_scripts
+[5.214s] Installing node_q_1_1 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/helpers
+[5.226s] Installing node_q_1_2 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/helpers
+[5.240s] Installing node_q_4_2 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/helpers
+[5.256s] writing list of installed files to '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/install.log'
+[5.299s] Invoked command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/helpers' returned '0': PYTHONPATH=/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/helpers build --build-base /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build install --record /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/install.log --install-scripts $base/lib/helpers --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+{
+  "package_name": "tutorial_msgs",
+  "non_idl_tuples": [
+    "/home/ros-tutorial/colcon_ws/src/ros-tutorial/tutorial_msgs:srv/GetBuoyLocation.srv"
+  ]
+}

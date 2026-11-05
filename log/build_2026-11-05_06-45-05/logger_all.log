@@ -1,0 +1,309 @@
+[0.105s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.106s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a4ca535df10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a4ca535dbb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a4ca535dbb0>>, mixin_verb=('build',))
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.158s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ros-tutorial/colcon_ws/src/ros-tutorial'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(autograder) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(autograder) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(autograder) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(autograder) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(autograder) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(autograder) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(autograder) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(autograder) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(autograder) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'autograder' with type 'ros.ament_python' and name 'autograder'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(helpers) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(helpers) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(helpers) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(helpers) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(helpers) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(helpers) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(helpers) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(helpers) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(helpers) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'helpers' with type 'ros.ament_python' and name 'helpers'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(student_code) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(student_code) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(student_code) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(student_code) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(student_code) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(student_code) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(student_code) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(student_code) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(student_code) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'student_code' with type 'ros.ament_python' and name 'student_code'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(tutorial_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(tutorial_msgs) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(tutorial_msgs) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(tutorial_msgs) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(tutorial_msgs) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(tutorial_msgs) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(tutorial_msgs) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(tutorial_msgs) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(tutorial_msgs) by extension 'ros'
+[0.299s] DEBUG:colcon.colcon_core.package_identification:Package 'tutorial_msgs' with type 'ros.ament_cmake' and name 'tutorial_msgs'
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'autograder' build argument 'cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'autograder' build argument 'cmake_target' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'autograder' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'autograder' build argument 'cmake_clean_cache' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'autograder' build argument 'cmake_clean_first' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'autograder' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'autograder' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'autograder' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'autograder' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'autograder' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder', 'merge_install': False, 'path': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/autograder', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'helpers' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'helpers' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'helpers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'helpers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'helpers' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'helpers' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'helpers' build argument 'ament_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'helpers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'helpers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.342s] DEBUG:colcon.colcon_core.verb:Building package 'helpers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers', 'merge_install': False, 'path': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/helpers', 'symlink_install': False, 'test_result_base': None}
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'student_code' build argument 'cmake_args' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'student_code' build argument 'cmake_target' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'student_code' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'student_code' build argument 'cmake_clean_cache' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'student_code' build argument 'cmake_clean_first' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'student_code' build argument 'cmake_force_configure' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'student_code' build argument 'ament_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'student_code' build argument 'catkin_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'student_code' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.346s] DEBUG:colcon.colcon_core.verb:Building package 'student_code' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code', 'merge_install': False, 'path': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/student_code', 'symlink_install': False, 'test_result_base': None}
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'tutorial_msgs' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'tutorial_msgs' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'tutorial_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'tutorial_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'tutorial_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'tutorial_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'tutorial_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'tutorial_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'tutorial_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.350s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs', 'merge_install': False, 'path': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/tutorial_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.351s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.352s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.353s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/autograder' with build type 'ament_python'
+[0.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('autograder', 'ament_prefix_path')
+[0.356s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/hook/ament_prefix_path.ps1'
+[0.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/hook/ament_prefix_path.dsv'
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/hook/ament_prefix_path.sh'
+[0.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.413s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/helpers' with build type 'ament_python'
+[0.414s] Level 1:colcon.colcon_core.shell:create_environment_hook('helpers', 'ament_prefix_path')
+[0.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/helpers/hook/ament_prefix_path.ps1'
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/helpers/hook/ament_prefix_path.dsv'
+[0.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/helpers/hook/ament_prefix_path.sh'
+[0.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.471s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.481s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/student_code' with build type 'ament_python'
+[0.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('student_code', 'ament_prefix_path')
+[0.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/student_code/hook/ament_prefix_path.ps1'
+[0.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/student_code/hook/ament_prefix_path.dsv'
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/student_code/hook/ament_prefix_path.sh'
+[0.532s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.544s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/tutorial_msgs' with build type 'ament_cmake'
+[0.545s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/tutorial_msgs'
+[0.546s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.547s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.856s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/autograder'
+[0.856s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.857s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.132s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/helpers'
+[1.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.133s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.420s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/student_code'
+[1.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros-tutorial/colcon_ws/src/ros-tutorial/tutorial_msgs -DCMAKE_INSTALL_PREFIX=/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs
+[3.154s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_scripts, upload_docs, extract_messages, bdist_dumb, build_clib, bdist_egg, clean, build, check, saveopts, egg_info, update_catalog, build_py, install_egg_info, bdist_wheel, install_lib, bdist_rpm, test, install_data, sdist, init_catalog, bdist, compile_catalog, symlink_data, upload, develop, install_headers, install, register, alias, editable_wheel, rotate, dist_info, setopt, easy_install, build_scripts, build_ext
+[3.164s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_scripts, upload_docs, extract_messages, bdist_dumb, build_clib, bdist_egg, clean, build, check, saveopts, egg_info, update_catalog, build_py, install_egg_info, bdist_wheel, install_lib, bdist_rpm, test, install_data, sdist, init_catalog, bdist, compile_catalog, symlink_data, upload, develop, install_headers, install, register, alias, editable_wheel, rotate, dist_info, setopt, easy_install, build_scripts, build_ext
+[3.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/autograder': PYTHONPATH=/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/autograder build --build-base /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build install --record /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/install.log --install-scripts $base/lib/autograder --single-version-externally-managed install_data
+[3.182s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_scripts, upload_docs, extract_messages, bdist_dumb, build_clib, bdist_egg, clean, build, check, saveopts, egg_info, update_catalog, build_py, install_egg_info, bdist_wheel, install_lib, bdist_rpm, test, install_data, sdist, init_catalog, bdist, compile_catalog, symlink_data, upload, develop, install_headers, install, register, alias, editable_wheel, rotate, dist_info, setopt, easy_install, build_scripts, build_ext
+[3.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/helpers': PYTHONPATH=/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/helpers build --build-base /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build install --record /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/install.log --install-scripts $base/lib/helpers --single-version-externally-managed install_data
+[3.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/student_code': PYTHONPATH=/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/student_code build --build-base /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build install --record /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/install.log --install-scripts $base/lib/student_code --single-version-externally-managed install_data
+[5.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/helpers' returned '0': PYTHONPATH=/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/helpers build --build-base /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build install --record /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/install.log --install-scripts $base/lib/helpers --single-version-externally-managed install_data
+[5.715s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers' for CMake module files
+[5.766s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers' for CMake config files
+[5.857s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib'
+[5.863s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/bin'
+[5.865s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/pkgconfig/helpers.pc'
+[5.868s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages'
+[5.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('helpers', 'pythonpath')
+[5.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/helpers/hook/pythonpath.ps1'
+[5.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/helpers/hook/pythonpath.dsv'
+[5.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/helpers/hook/pythonpath.sh'
+[5.925s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/bin'
+[5.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(helpers)
+[5.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/helpers/package.ps1'
+[5.944s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/helpers/package.dsv'
+[5.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/helpers/package.sh'
+[5.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/helpers/package.bash'
+[5.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/helpers/package.zsh'
+[6.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/colcon-core/packages/helpers)
+[6.860s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code' for CMake module files
+[6.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/student_code' returned '0': PYTHONPATH=/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/student_code build --build-base /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build install --record /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/install.log --install-scripts $base/lib/student_code --single-version-externally-managed install_data
+[6.909s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code' for CMake config files
+[7.047s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib'
+[7.052s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/bin'
+[7.053s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/pkgconfig/student_code.pc'
+[7.055s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages'
+[7.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('student_code', 'pythonpath')
+[7.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/student_code/hook/pythonpath.ps1'
+[7.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/student_code/hook/pythonpath.dsv'
+[7.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/student_code/hook/pythonpath.sh'
+[7.103s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/bin'
+[7.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(student_code)
+[7.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/student_code/package.ps1'
+[7.119s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/student_code/package.dsv'
+[7.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/student_code/package.sh'
+[7.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/student_code/package.bash'
+[7.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/student_code/package.zsh'
+[7.173s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/colcon-core/packages/student_code)
+[8.049s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder' for CMake module files
+[8.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/autograder' returned '0': PYTHONPATH=/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/autograder build --build-base /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build install --record /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/install.log --install-scripts $base/lib/autograder --single-version-externally-managed install_data
+[8.121s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder' for CMake config files
+[8.324s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib'
+[8.328s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/bin'
+[8.330s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/pkgconfig/autograder.pc'
+[8.332s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages'
+[8.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('autograder', 'pythonpath')
+[8.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/hook/pythonpath.ps1'
+[8.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/hook/pythonpath.dsv'
+[8.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/hook/pythonpath.sh'
+[8.382s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/bin'
+[8.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autograder)
+[8.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/package.ps1'
+[8.397s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/package.dsv'
+[8.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/package.sh'
+[8.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/package.bash'
+[8.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/package.zsh'
+[8.454s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/colcon-core/packages/autograder)
+[26.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros-tutorial/colcon_ws/src/ros-tutorial/tutorial_msgs -DCMAKE_INSTALL_PREFIX=/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs
+[26.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs -- -j16 -l16
+[35.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs -- -j16 -l16
+[35.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs
+[45.340s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_msgs)
+[45.341s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs' for CMake module files
+[45.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs
+[45.560s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs' for CMake config files
+[45.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_msgs', 'cmake_prefix_path')
+[45.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/hook/cmake_prefix_path.ps1'
+[45.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/hook/cmake_prefix_path.dsv'
+[45.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/hook/cmake_prefix_path.sh'
+[45.800s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib'
+[45.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_msgs', 'ld_library_path_lib')
+[45.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/hook/ld_library_path_lib.ps1'
+[45.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/hook/ld_library_path_lib.dsv'
+[45.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/hook/ld_library_path_lib.sh'
+[45.873s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/bin'
+[45.875s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/pkgconfig/tutorial_msgs.pc'
+[45.877s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages'
+[45.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_msgs', 'pythonpath')
+[45.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/hook/pythonpath.ps1'
+[45.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/hook/pythonpath.dsv'
+[45.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/hook/pythonpath.sh'
+[45.941s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/bin'
+[45.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/package.ps1'
+[45.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/package.dsv'
+[45.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/package.sh'
+[46.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/package.bash'
+[46.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/package.zsh'
+[46.133s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/colcon-core/packages/tutorial_msgs)
+[46.191s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_msgs)
+[46.192s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs' for CMake module files
+[46.521s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs' for CMake config files
+[46.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_msgs', 'cmake_prefix_path')
+[46.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/hook/cmake_prefix_path.ps1'
+[46.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/hook/cmake_prefix_path.dsv'
+[46.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/hook/cmake_prefix_path.sh'
+[46.790s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib'
+[46.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_msgs', 'ld_library_path_lib')
+[46.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/hook/ld_library_path_lib.ps1'
+[46.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/hook/ld_library_path_lib.dsv'
+[46.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/hook/ld_library_path_lib.sh'
+[46.842s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/bin'
+[46.843s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/pkgconfig/tutorial_msgs.pc'
+[46.845s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages'
+[46.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_msgs', 'pythonpath')
+[46.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/hook/pythonpath.ps1'
+[46.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/hook/pythonpath.dsv'
+[46.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/hook/pythonpath.sh'
+[46.890s] Level 1:colcon.colcon_core.environment:checking '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/bin'
+[46.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/package.ps1'
+[46.904s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/package.dsv'
+[46.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/package.sh'
+[46.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/package.bash'
+[46.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/package.zsh'
+[46.959s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/colcon-core/packages/tutorial_msgs)
+[46.970s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[46.971s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[46.971s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[46.972s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[46.991s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[46.991s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[46.992s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[46.992s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[46.994s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[46.994s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[46.995s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/local_setup.ps1'
+[47.002s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/_local_setup_util_ps1.py'
+[47.009s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/setup.ps1'
+[47.014s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/local_setup.sh'
+[47.020s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/_local_setup_util_sh.py'
+[47.025s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/setup.sh'
+[47.031s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/local_setup.bash'
+[47.037s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/setup.bash'
+[47.044s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/local_setup.zsh'
+[47.050s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/setup.zsh'

@@ -1,0 +1,73 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs/tutorial_msgs__rs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "tutorial_msgs__rs::@6be1c401f2dab8e31a1a",
+	"name" : "tutorial_msgs__rs",
+	"paths" : 
+	{
+		"build" : "tutorial_msgs__rs",
+		"source" : "/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs/tutorial_msgs__rs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs/tutorial_msgs__rs/CMakeFiles/tutorial_msgs__rs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs/tutorial_msgs__rs/CMakeFiles/tutorial_msgs__rs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs/rosidl_generator_rs/tutorial_msgs/rust/src/lib.rs.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

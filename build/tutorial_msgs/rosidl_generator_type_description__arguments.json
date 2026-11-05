@@ -1,0 +1,13 @@
+{
+  "package_name": "tutorial_msgs",
+  "output_dir": "/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs/rosidl_generator_type_description/tutorial_msgs",
+  "idl_tuples": [
+    "/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs/rosidl_adapter/tutorial_msgs:srv/GetBuoyLocation.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

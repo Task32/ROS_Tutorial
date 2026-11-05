@@ -1,0 +1,949 @@
+[0.000000] (-) TimerEvent: {}
+[0.000464] (autograder) JobQueued: {'identifier': 'autograder', 'dependencies': OrderedDict()}
+[0.000940] (helpers) JobQueued: {'identifier': 'helpers', 'dependencies': OrderedDict()}
+[0.001317] (student_code) JobQueued: {'identifier': 'student_code', 'dependencies': OrderedDict()}
+[0.001733] (tutorial_msgs) JobQueued: {'identifier': 'tutorial_msgs', 'dependencies': OrderedDict()}
+[0.002188] (autograder) JobStarted: {'identifier': 'autograder'}
+[0.059818] (helpers) JobStarted: {'identifier': 'helpers'}
+[0.098840] (-) TimerEvent: {}
+[0.127919] (student_code) JobStarted: {'identifier': 'student_code'}
+[0.191477] (tutorial_msgs) JobStarted: {'identifier': 'tutorial_msgs'}
+[0.198921] (-) TimerEvent: {}
+[0.299794] (-) TimerEvent: {}
+[0.401024] (-) TimerEvent: {}
+[0.501923] (-) TimerEvent: {}
+[0.603063] (-) TimerEvent: {}
+[0.703645] (-) TimerEvent: {}
+[0.804346] (-) TimerEvent: {}
+[0.904986] (-) TimerEvent: {}
+[1.005918] (-) TimerEvent: {}
+[1.090349] (tutorial_msgs) JobProgress: {'identifier': 'tutorial_msgs', 'progress': 'cmake'}
+[1.106013] (-) TimerEvent: {}
+[1.127104] (tutorial_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ros-tutorial/colcon_ws/src/ros-tutorial/tutorial_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs'], 'cwd': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs', 'env': OrderedDict({'IGN_IP': '127.0.0.1', 'GZ_SIM_RESOURCE_PATH': '/usr/share/gz', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'DESKTOP-409D67E', 'GIT_ASKPASS': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/bin/helpers/browser.sh', 'HOME': '/home/ros-tutorial', 'OLDPWD': '/home/ros-tutorial/colcon_ws/src', 'TERM_PROGRAM_VERSION': '1.145.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5233811f-8603-41df-9d33-71c31625e238.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-ff72a195-ebbb-4440-a59c-81fe4f98b1a6.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'GZ_RELAY': '127.0.0.1', 'TERM': 'xterm-256color', 'PATH': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ros-tutorial/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/bin/copilot-shim', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GZ_PARTITION': '', 'REMOTE_CONTAINERS_SOCKETS': '["/run/user/1000/gnupg/S.gpg-agent"]', 'DISPLAY': 'milesmiles_ros-tutorial_v26-08-1-novnc:0.0', 'LANG': 'C.UTF-8', 'GZ_IP': '127.0.0.1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2c2a866b13.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': 'bash', 'GZ_TRANSPORT_USE_MULTICAST': '0', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'BASH_ENV': '/home/ros-tutorial/.bashrc', 'PWD': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs', 'LC_ALL': 'C.UTF-8', 'COPILOT_DEBUG_NONCE': '87db4f249cab4f01a970879abd26376a', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'IGN_PARTITION': ''}), 'shell': False}
+[1.206118] (-) TimerEvent: {}
+[1.306715] (-) TimerEvent: {}
+[1.408011] (-) TimerEvent: {}
+[1.496508] (tutorial_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.508111] (-) TimerEvent: {}
+[1.608944] (-) TimerEvent: {}
+[1.709689] (-) TimerEvent: {}
+[1.768515] (tutorial_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.809792] (-) TimerEvent: {}
+[1.836738] (tutorial_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.909914] (-) TimerEvent: {}
+[2.010656] (-) TimerEvent: {}
+[2.111432] (-) TimerEvent: {}
+[2.212172] (-) TimerEvent: {}
+[2.312881] (-) TimerEvent: {}
+[2.415480] (-) TimerEvent: {}
+[2.516420] (-) TimerEvent: {}
+[2.617374] (-) TimerEvent: {}
+[2.663530] (tutorial_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.717464] (-) TimerEvent: {}
+[2.737964] (tutorial_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.739717] (tutorial_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.741746] (tutorial_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.790734] (tutorial_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.808586] (autograder) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/autograder', 'build', '--build-base', '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build', 'install', '--record', '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/install.log', '--install-scripts', '$base/lib/autograder', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/autograder', 'env': OrderedDict({'IGN_IP': '127.0.0.1', 'GZ_SIM_RESOURCE_PATH': '/usr/share/gz', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'DESKTOP-409D67E', 'GIT_ASKPASS': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/bin/helpers/browser.sh', 'HOME': '/home/ros-tutorial', 'OLDPWD': '/home/ros-tutorial/colcon_ws/src', 'TERM_PROGRAM_VERSION': '1.145.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5233811f-8603-41df-9d33-71c31625e238.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-ff72a195-ebbb-4440-a59c-81fe4f98b1a6.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'GZ_RELAY': '127.0.0.1', 'TERM': 'xterm-256color', 'PATH': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ros-tutorial/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/bin/copilot-shim', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GZ_PARTITION': '', 'REMOTE_CONTAINERS_SOCKETS': '["/run/user/1000/gnupg/S.gpg-agent"]', 'DISPLAY': 'milesmiles_ros-tutorial_v26-08-1-novnc:0.0', 'LANG': 'C.UTF-8', 'GZ_IP': '127.0.0.1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2c2a866b13.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': 'bash', 'GZ_TRANSPORT_USE_MULTICAST': '0', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'BASH_ENV': '/home/ros-tutorial/.bashrc', 'PWD': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder', 'LC_ALL': 'C.UTF-8', 'COPILOT_DEBUG_NONCE': '87db4f249cab4f01a970879abd26376a', 'PYTHONPATH': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'IGN_PARTITION': ''}), 'shell': False}
+[2.820380] (-) TimerEvent: {}
+[2.821318] (helpers) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/helpers', 'build', '--build-base', '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build', 'install', '--record', '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/install.log', '--install-scripts', '$base/lib/helpers', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/helpers', 'env': OrderedDict({'IGN_IP': '127.0.0.1', 'GZ_SIM_RESOURCE_PATH': '/usr/share/gz', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'DESKTOP-409D67E', 'GIT_ASKPASS': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/bin/helpers/browser.sh', 'HOME': '/home/ros-tutorial', 'OLDPWD': '/home/ros-tutorial/colcon_ws/src', 'TERM_PROGRAM_VERSION': '1.145.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5233811f-8603-41df-9d33-71c31625e238.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-ff72a195-ebbb-4440-a59c-81fe4f98b1a6.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'GZ_RELAY': '127.0.0.1', 'TERM': 'xterm-256color', 'PATH': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ros-tutorial/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/bin/copilot-shim', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GZ_PARTITION': '', 'REMOTE_CONTAINERS_SOCKETS': '["/run/user/1000/gnupg/S.gpg-agent"]', 'DISPLAY': 'milesmiles_ros-tutorial_v26-08-1-novnc:0.0', 'LANG': 'C.UTF-8', 'GZ_IP': '127.0.0.1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2c2a866b13.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': 'bash', 'GZ_TRANSPORT_USE_MULTICAST': '0', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'BASH_ENV': '/home/ros-tutorial/.bashrc', 'PWD': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers', 'LC_ALL': 'C.UTF-8', 'COPILOT_DEBUG_NONCE': '87db4f249cab4f01a970879abd26376a', 'PYTHONPATH': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'IGN_PARTITION': ''}), 'shell': False}
+[2.844115] (student_code) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/student_code', 'build', '--build-base', '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build', 'install', '--record', '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/install.log', '--install-scripts', '$base/lib/student_code', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/student_code', 'env': OrderedDict({'IGN_IP': '127.0.0.1', 'GZ_SIM_RESOURCE_PATH': '/usr/share/gz', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'DESKTOP-409D67E', 'GIT_ASKPASS': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/bin/helpers/browser.sh', 'HOME': '/home/ros-tutorial', 'OLDPWD': '/home/ros-tutorial/colcon_ws/src', 'TERM_PROGRAM_VERSION': '1.145.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5233811f-8603-41df-9d33-71c31625e238.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-ff72a195-ebbb-4440-a59c-81fe4f98b1a6.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'GZ_RELAY': '127.0.0.1', 'TERM': 'xterm-256color', 'PATH': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ros-tutorial/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/bin/copilot-shim', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GZ_PARTITION': '', 'REMOTE_CONTAINERS_SOCKETS': '["/run/user/1000/gnupg/S.gpg-agent"]', 'DISPLAY': 'milesmiles_ros-tutorial_v26-08-1-novnc:0.0', 'LANG': 'C.UTF-8', 'GZ_IP': '127.0.0.1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2c2a866b13.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': 'bash', 'GZ_TRANSPORT_USE_MULTICAST': '0', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'BASH_ENV': '/home/ros-tutorial/.bashrc', 'PWD': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code', 'LC_ALL': 'C.UTF-8', 'COPILOT_DEBUG_NONCE': '87db4f249cab4f01a970879abd26376a', 'PYTHONPATH': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'IGN_PARTITION': ''}), 'shell': False}
+[2.920495] (-) TimerEvent: {}
+[3.021090] (-) TimerEvent: {}
+[3.121785] (-) TimerEvent: {}
+[3.222515] (-) TimerEvent: {}
+[3.323363] (-) TimerEvent: {}
+[3.424144] (-) TimerEvent: {}
+[3.525136] (-) TimerEvent: {}
+[3.564192] (tutorial_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.625235] (-) TimerEvent: {}
+[3.649915] (tutorial_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.652670] (tutorial_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.655305] (tutorial_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.671751] (helpers) StdoutLine: {'line': b'running egg_info\n'}
+[3.674317] (helpers) StdoutLine: {'line': b'creating ../build/helpers/helpers.egg-info\n'}
+[3.694393] (autograder) StdoutLine: {'line': b'running egg_info\n'}
+[3.696745] (autograder) StdoutLine: {'line': b'creating ../build/autograder/autograder.egg-info\n'}
+[3.701288] (student_code) StdoutLine: {'line': b'running egg_info\n'}
+[3.703442] (helpers) StdoutLine: {'line': b'writing ../build/helpers/helpers.egg-info/PKG-INFO\n'}
+[3.705358] (student_code) StdoutLine: {'line': b'creating ../build/student_code/student_code.egg-info\n'}
+[3.711002] (helpers) StdoutLine: {'line': b'writing dependency_links to ../build/helpers/helpers.egg-info/dependency_links.txt\n'}
+[3.715150] (helpers) StdoutLine: {'line': b'writing entry points to ../build/helpers/helpers.egg-info/entry_points.txt\n'}
+[3.719351] (helpers) StdoutLine: {'line': b'writing requirements to ../build/helpers/helpers.egg-info/requires.txt\n'}
+[3.722423] (helpers) StdoutLine: {'line': b'writing top-level names to ../build/helpers/helpers.egg-info/top_level.txt\n'}
+[3.724853] (autograder) StdoutLine: {'line': b'writing ../build/autograder/autograder.egg-info/PKG-INFO\n'}
+[3.727397] (-) TimerEvent: {}
+[3.728152] (tutorial_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.730243] (helpers) StdoutLine: {'line': b"writing manifest file '../build/helpers/helpers.egg-info/SOURCES.txt'\n"}
+[3.732297] (student_code) StdoutLine: {'line': b'writing ../build/student_code/student_code.egg-info/PKG-INFO\n'}
+[3.734896] (autograder) StdoutLine: {'line': b'writing dependency_links to ../build/autograder/autograder.egg-info/dependency_links.txt\n'}
+[3.740341] (autograder) StdoutLine: {'line': b'writing entry points to ../build/autograder/autograder.egg-info/entry_points.txt\n'}
+[3.743122] (student_code) StdoutLine: {'line': b'writing dependency_links to ../build/student_code/student_code.egg-info/dependency_links.txt\n'}
+[3.747187] (autograder) StdoutLine: {'line': b'writing requirements to ../build/autograder/autograder.egg-info/requires.txt\n'}
+[3.749128] (student_code) StdoutLine: {'line': b'writing entry points to ../build/student_code/student_code.egg-info/entry_points.txt\n'}
+[3.751491] (autograder) StdoutLine: {'line': b'writing top-level names to ../build/autograder/autograder.egg-info/top_level.txt\n'}
+[3.754443] (student_code) StdoutLine: {'line': b'writing requirements to ../build/student_code/student_code.egg-info/requires.txt\n'}
+[3.757725] (autograder) StdoutLine: {'line': b"writing manifest file '../build/autograder/autograder.egg-info/SOURCES.txt'\n"}
+[3.760548] (student_code) StdoutLine: {'line': b'writing top-level names to ../build/student_code/student_code.egg-info/top_level.txt\n'}
+[3.766729] (student_code) StdoutLine: {'line': b"writing manifest file '../build/student_code/student_code.egg-info/SOURCES.txt'\n"}
+[3.827516] (-) TimerEvent: {}
+[3.830577] (helpers) StdoutLine: {'line': b"reading manifest file '../build/helpers/helpers.egg-info/SOURCES.txt'\n"}
+[3.889122] (helpers) StdoutLine: {'line': b"writing manifest file '../build/helpers/helpers.egg-info/SOURCES.txt'\n"}
+[3.894524] (helpers) StdoutLine: {'line': b'running build\n'}
+[3.896636] (helpers) StdoutLine: {'line': b'running build_py\n'}
+[3.898411] (student_code) StdoutLine: {'line': b"reading manifest file '../build/student_code/student_code.egg-info/SOURCES.txt'\n"}
+[3.900239] (helpers) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build\n'}
+[3.902217] (helpers) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib\n'}
+[3.903786] (helpers) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers\n'}
+[3.912956] (helpers) StdoutLine: {'line': b'copying helpers/node_q_1_1.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers\n'}
+[3.926201] (autograder) StdoutLine: {'line': b"reading manifest file '../build/autograder/autograder.egg-info/SOURCES.txt'\n"}
+[3.928985] (-) TimerEvent: {}
+[3.946116] (helpers) StdoutLine: {'line': b'copying helpers/node_q_1_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers\n'}
+[3.972602] (student_code) StdoutLine: {'line': b"writing manifest file '../build/student_code/student_code.egg-info/SOURCES.txt'\n"}
+[3.976601] (student_code) StdoutLine: {'line': b'running build\n'}
+[3.979309] (student_code) StdoutLine: {'line': b'running build_py\n'}
+[3.981177] (helpers) StdoutLine: {'line': b'copying helpers/node_q_4_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers\n'}
+[3.983061] (student_code) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build\n'}
+[3.984966] (student_code) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib\n'}
+[3.987460] (student_code) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code\n'}
+[3.997572] (student_code) StdoutLine: {'line': b'copying student_code/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code\n'}
+[4.000847] (tutorial_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.011945] (helpers) StdoutLine: {'line': b'copying helpers/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers\n'}
+[4.019268] (student_code) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1\n'}
+[4.023890] (autograder) StdoutLine: {'line': b"writing manifest file '../build/autograder/autograder.egg-info/SOURCES.txt'\n"}
+[4.027481] (helpers) StdoutLine: {'line': b'running install\n'}
+[4.029793] (-) TimerEvent: {}
+[4.030399] (autograder) StdoutLine: {'line': b'running build\n'}
+[4.032491] (autograder) StdoutLine: {'line': b'running build_py\n'}
+[4.035020] (student_code) StdoutLine: {'line': b'copying student_code/topic_1/question_1_1.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1\n'}
+[4.037208] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build\n'}
+[4.039696] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib\n'}
+[4.041594] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder\n'}
+[4.045556] (helpers) StdoutLine: {'line': b'running install_lib\n'}
+[4.059419] (autograder) StdoutLine: {'line': b'copying autograder/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder\n'}
+[4.073356] (student_code) StdoutLine: {'line': b'copying student_code/topic_1/question_1_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1\n'}
+[4.080806] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1\n'}
+[4.094832] (autograder) StdoutLine: {'line': b'copying autograder/topic_1/question_1_1_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1\n'}
+[4.105622] (helpers) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers\n'}
+[4.107634] (student_code) StdoutLine: {'line': b'copying student_code/topic_1/question_1_3.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1\n'}
+[4.126268] (helpers) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers/node_q_1_1.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers\n'}
+[4.129885] (-) TimerEvent: {}
+[4.134417] (autograder) StdoutLine: {'line': b'copying autograder/topic_1/question_1_2_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1\n'}
+[4.137965] (student_code) StdoutLine: {'line': b'copying student_code/topic_1/question_1_4_client.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1\n'}
+[4.169278] (student_code) StdoutLine: {'line': b'copying student_code/topic_1/question_1_4_service.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1\n'}
+[4.172340] (helpers) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers/node_q_1_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers\n'}
+[4.181295] (autograder) StdoutLine: {'line': b'copying autograder/topic_1/question_1_3_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1\n'}
+[4.207055] (student_code) StdoutLine: {'line': b'copying student_code/topic_1/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1\n'}
+[4.219087] (helpers) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers/node_q_4_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers\n'}
+[4.223869] (autograder) StdoutLine: {'line': b'copying autograder/topic_1/question_1_4_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1\n'}
+[4.230035] (-) TimerEvent: {}
+[4.230793] (student_code) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_3\n'}
+[4.243777] (student_code) StdoutLine: {'line': b'copying student_code/topic_3/question_3_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_3\n'}
+[4.261098] (helpers) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/build/lib/helpers/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers\n'}
+[4.265529] (autograder) StdoutLine: {'line': b'copying autograder/topic_1/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1\n'}
+[4.284290] (student_code) StdoutLine: {'line': b'copying student_code/topic_3/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_3\n'}
+[4.290227] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_3\n'}
+[4.302503] (autograder) StdoutLine: {'line': b'copying autograder/topic_3/question_3_2_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_3\n'}
+[4.305921] (helpers) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers/node_q_1_1.py to node_q_1_1.cpython-312.pyc\n'}
+[4.308464] (student_code) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_4\n'}
+[4.321162] (student_code) StdoutLine: {'line': b'copying student_code/topic_4/question_4_3.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_4\n'}
+[4.330102] (-) TimerEvent: {}
+[4.337780] (autograder) StdoutLine: {'line': b'copying autograder/topic_3/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_3\n'}
+[4.355203] (helpers) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers/node_q_1_2.py to node_q_1_2.cpython-312.pyc\n'}
+[4.360553] (student_code) StdoutLine: {'line': b'copying student_code/topic_4/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_4\n'}
+[4.362800] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_4\n'}
+[4.375767] (autograder) StdoutLine: {'line': b'copying autograder/topic_4/question_4_3_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_4\n'}
+[4.386499] (student_code) StdoutLine: {'line': b'running install\n'}
+[4.397244] (student_code) StdoutLine: {'line': b'running install_lib\n'}
+[4.407138] (helpers) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers/node_q_4_2.py to node_q_4_2.cpython-312.pyc\n'}
+[4.415999] (autograder) StdoutLine: {'line': b'copying autograder/topic_4/question_4_4_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_4\n'}
+[4.430980] (-) TimerEvent: {}
+[4.445266] (student_code) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code\n'}
+[4.455509] (autograder) StdoutLine: {'line': b'copying autograder/topic_4/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_4\n'}
+[4.457707] (helpers) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers/__init__.py to __init__.cpython-312.pyc\n'}
+[4.465882] (student_code) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1\n'}
+[4.478979] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_5\n'}
+[4.486714] (student_code) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1/question_1_1.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1\n'}
+[4.492496] (autograder) StdoutLine: {'line': b'copying autograder/topic_5/question_5_1_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_5\n'}
+[4.496087] (helpers) StdoutLine: {'line': b'running install_data\n'}
+[4.503438] (helpers) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/ament_index\n'}
+[4.506117] (helpers) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/ament_index/resource_index\n'}
+[4.508933] (helpers) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/ament_index/resource_index/packages\n'}
+[4.520784] (helpers) StdoutLine: {'line': b'copying resource/helpers -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/ament_index/resource_index/packages\n'}
+[4.531106] (-) TimerEvent: {}
+[4.535237] (autograder) StdoutLine: {'line': b'copying autograder/topic_5/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_5\n'}
+[4.538656] (student_code) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1/question_1_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1\n'}
+[4.554603] (helpers) StdoutLine: {'line': b'copying package.xml -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/share/helpers\n'}
+[4.562441] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_6\n'}
+[4.569796] (helpers) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.575333] (autograder) StdoutLine: {'line': b'copying autograder/topic_6/question_6_1_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_6\n'}
+[4.585834] (student_code) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1/question_1_3.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1\n'}
+[4.613368] (autograder) StdoutLine: {'line': b'copying autograder/topic_6/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_6\n'}
+[4.622307] (helpers) StdoutLine: {'line': b'Copying ../build/helpers/helpers.egg-info to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/python3.12/site-packages/helpers-0.0.0-py3.12.egg-info\n'}
+[4.630642] (student_code) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1/question_1_4_client.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1\n'}
+[4.632687] (-) TimerEvent: {}
+[4.636626] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/utils\n'}
+[4.651797] (autograder) StdoutLine: {'line': b'copying autograder/utils/grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/utils\n'}
+[4.679962] (student_code) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1/question_1_4_service.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1\n'}
+[4.685355] (tutorial_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[4.692304] (autograder) StdoutLine: {'line': b'copying autograder/utils/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/utils\n'}
+[4.723516] (student_code) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_1/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1\n'}
+[4.726767] (autograder) StdoutLine: {'line': b'running install\n'}
+[4.732790] (-) TimerEvent: {}
+[4.735896] (autograder) StdoutLine: {'line': b'running install_lib\n'}
+[4.760495] (tutorial_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.775414] (student_code) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_3\n'}
+[4.801720] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder\n'}
+[4.803665] (student_code) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_3/question_3_2.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_3\n'}
+[4.824991] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1\n'}
+[4.832895] (-) TimerEvent: {}
+[4.847581] (autograder) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1/question_1_1_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1\n'}
+[4.849754] (student_code) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_3/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_3\n'}
+[4.893372] (student_code) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_4\n'}
+[4.897235] (autograder) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1/question_1_2_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1\n'}
+[4.917087] (student_code) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_4/question_4_3.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_4\n'}
+[4.923114] (helpers) StdoutLine: {'line': b'running install_scripts\n'}
+[4.933012] (-) TimerEvent: {}
+[4.941474] (autograder) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1/question_1_3_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1\n'}
+[4.961439] (student_code) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/topic_4/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_4\n'}
+[4.984393] (autograder) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1/question_1_4_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1\n'}
+[4.999057] (student_code) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/build/lib/student_code/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code\n'}
+[5.033112] (-) TimerEvent: {}
+[5.035145] (autograder) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1\n'}
+[5.046295] (student_code) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1/question_1_1.py to question_1_1.cpython-312.pyc\n'}
+[5.080553] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_3\n'}
+[5.104745] (autograder) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_3/question_3_2_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_3\n'}
+[5.107553] (student_code) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1/question_1_2.py to question_1_2.cpython-312.pyc\n'}
+[5.133231] (-) TimerEvent: {}
+[5.155725] (autograder) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_3/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_3\n'}
+[5.164533] (student_code) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1/question_1_3.py to question_1_3.cpython-312.pyc\n'}
+[5.199181] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_4\n'}
+[5.219044] (student_code) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1/question_1_4_client.py to question_1_4_client.cpython-312.pyc\n'}
+[5.222653] (autograder) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_4/question_4_3_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_4\n'}
+[5.233333] (-) TimerEvent: {}
+[5.243948] (tutorial_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.272549] (helpers) StdoutLine: {'line': b'Installing node_q_1_1 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/helpers\n'}
+[5.277478] (autograder) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_4/question_4_4_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_4\n'}
+[5.281066] (student_code) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1/question_1_4_service.py to question_1_4_service.cpython-312.pyc\n'}
+[5.284397] (helpers) StdoutLine: {'line': b'Installing node_q_1_2 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/helpers\n'}
+[5.297939] (helpers) StdoutLine: {'line': b'Installing node_q_4_2 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/helpers/lib/helpers\n'}
+[5.314202] (helpers) StdoutLine: {'line': b"writing list of installed files to '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/helpers/install.log'\n"}
+[5.327799] (autograder) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_4/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_4\n'}
+[5.333432] (-) TimerEvent: {}
+[5.338459] (student_code) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_1/__init__.py to __init__.cpython-312.pyc\n'}
+[5.357941] (helpers) CommandEnded: {'returncode': 0}
+[5.372828] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_5\n'}
+[5.397746] (autograder) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_5/question_5_1_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_5\n'}
+[5.400121] (student_code) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_3/question_3_2.py to question_3_2.cpython-312.pyc\n'}
+[5.433523] (-) TimerEvent: {}
+[5.447519] (autograder) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_5/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_5\n'}
+[5.453485] (student_code) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_3/__init__.py to __init__.cpython-312.pyc\n'}
+[5.489570] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_6\n'}
+[5.513528] (student_code) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_4/question_4_3.py to question_4_3.cpython-312.pyc\n'}
+[5.521519] (autograder) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_6/question_6_1_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_6\n'}
+[5.533627] (-) TimerEvent: {}
+[5.573938] (student_code) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/topic_4/__init__.py to __init__.cpython-312.pyc\n'}
+[5.576454] (autograder) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_6/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_6\n'}
+[5.626071] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/utils\n'}
+[5.633765] (-) TimerEvent: {}
+[5.636608] (student_code) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code/__init__.py to __init__.cpython-312.pyc\n'}
+[5.657233] (autograder) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/utils/grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/utils\n'}
+[5.667262] (helpers) JobEnded: {'identifier': 'helpers', 'rc': 0}
+[5.682683] (student_code) StdoutLine: {'line': b'running install_data\n'}
+[5.690819] (student_code) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/ament_index\n'}
+[5.694430] (student_code) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/ament_index/resource_index\n'}
+[5.697790] (student_code) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/ament_index/resource_index/packages\n'}
+[5.706450] (autograder) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/utils/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/utils\n'}
+[5.709912] (student_code) StdoutLine: {'line': b'copying resource/student_code -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/ament_index/resource_index/packages\n'}
+[5.733864] (-) TimerEvent: {}
+[5.735121] (student_code) StdoutLine: {'line': b'copying package.xml -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/share/student_code\n'}
+[5.739779] (tutorial_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[5.744343] (autograder) StdoutLine: {'line': b'copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder\n'}
+[5.757450] (student_code) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.780935] (tutorial_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[5.790574] (autograder) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1/question_1_1_grader.py to question_1_1_grader.cpython-312.pyc\n'}
+[5.806881] (student_code) StdoutLine: {'line': b'Copying ../build/student_code/student_code.egg-info to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/python3.12/site-packages/student_code-0.0.0-py3.12.egg-info\n'}
+[5.833965] (-) TimerEvent: {}
+[5.853196] (autograder) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1/question_1_2_grader.py to question_1_2_grader.cpython-312.pyc\n'}
+[5.905335] (autograder) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1/question_1_3_grader.py to question_1_3_grader.cpython-312.pyc\n'}
+[5.934060] (-) TimerEvent: {}
+[5.952654] (autograder) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1/question_1_4_grader.py to question_1_4_grader.cpython-312.pyc\n'}
+[5.982787] (tutorial_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[6.005670] (autograder) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1/__init__.py to __init__.cpython-312.pyc\n'}
+[6.034187] (-) TimerEvent: {}
+[6.052650] (autograder) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_3/question_3_2_grader.py to question_3_2_grader.cpython-312.pyc\n'}
+[6.071687] (student_code) StdoutLine: {'line': b'running install_scripts\n'}
+[6.105140] (autograder) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_3/__init__.py to __init__.cpython-312.pyc\n'}
+[6.134300] (-) TimerEvent: {}
+[6.154771] (autograder) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_4/question_4_3_grader.py to question_4_3_grader.cpython-312.pyc\n'}
+[6.215510] (autograder) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_4/question_4_4_grader.py to question_4_4_grader.cpython-312.pyc\n'}
+[6.234398] (-) TimerEvent: {}
+[6.272050] (autograder) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_4/__init__.py to __init__.cpython-312.pyc\n'}
+[6.324224] (autograder) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_5/question_5_1_grader.py to question_5_1_grader.cpython-312.pyc\n'}
+[6.334467] (-) TimerEvent: {}
+[6.374117] (autograder) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_5/__init__.py to __init__.cpython-312.pyc\n'}
+[6.390080] (student_code) StdoutLine: {'line': b'Installing question_1_2 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/student_code\n'}
+[6.407532] (student_code) StdoutLine: {'line': b'Installing question_1_3 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/student_code\n'}
+[6.424417] (student_code) StdoutLine: {'line': b'Installing question_4_3 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/student_code/lib/student_code\n'}
+[6.434715] (-) TimerEvent: {}
+[6.437110] (autograder) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_6/question_6_1_grader.py to question_6_1_grader.cpython-312.pyc\n'}
+[6.447794] (student_code) StdoutLine: {'line': b"writing list of installed files to '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/student_code/install.log'\n"}
+[6.498146] (autograder) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_6/__init__.py to __init__.cpython-312.pyc\n'}
+[6.507103] (student_code) CommandEnded: {'returncode': 0}
+[6.534603] (-) TimerEvent: {}
+[6.555157] (autograder) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/utils/grader.py to grader.cpython-312.pyc\n'}
+[6.606587] (autograder) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/utils/__init__.py to __init__.cpython-312.pyc\n'}
+[6.634672] (-) TimerEvent: {}
+[6.651975] (autograder) StdoutLine: {'line': b'byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/__init__.py to __init__.cpython-312.pyc\n'}
+[6.694687] (autograder) StdoutLine: {'line': b'running install_data\n'}
+[6.700624] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/ament_index\n'}
+[6.702960] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/ament_index/resource_index\n'}
+[6.705624] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/ament_index/resource_index/packages\n'}
+[6.719134] (autograder) StdoutLine: {'line': b'copying resource/autograder -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/ament_index/resource_index/packages\n'}
+[6.734718] (-) TimerEvent: {}
+[6.742791] (autograder) StdoutLine: {'line': b'copying package.xml -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder\n'}
+[6.763670] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/launch\n'}
+[6.773943] (autograder) StdoutLine: {'line': b'copying launch/test_4_3.launch.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/launch\n'}
+[6.815093] (autograder) StdoutLine: {'line': b'copying launch/test_4_4.launch.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/launch\n'}
+[6.832512] (student_code) JobEnded: {'identifier': 'student_code', 'rc': 0}
+[6.840176] (-) TimerEvent: {}
+[6.840819] (autograder) StdoutLine: {'line': b'copying launch/test_5_1.launch.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/launch\n'}
+[6.875847] (autograder) StdoutLine: {'line': b'creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/resources\n'}
+[6.887118] (autograder) StdoutLine: {'line': b'copying resources/mask.png -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/resources\n'}
+[6.908723] (autograder) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.940294] (-) TimerEvent: {}
+[6.962179] (autograder) StdoutLine: {'line': b'Copying ../build/autograder/autograder.egg-info to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder-0.0.0-py3.12.egg-info\n'}
+[7.040409] (-) TimerEvent: {}
+[7.141105] (-) TimerEvent: {}
+[7.240779] (autograder) StdoutLine: {'line': b'running install_scripts\n'}
+[7.242467] (-) TimerEvent: {}
+[7.343013] (-) TimerEvent: {}
+[7.445455] (-) TimerEvent: {}
+[7.529064] (autograder) StdoutLine: {'line': b'Installing test_topic_1_1 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/autograder\n'}
+[7.539231] (autograder) StdoutLine: {'line': b'Installing test_topic_1_2 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/autograder\n'}
+[7.545569] (-) TimerEvent: {}
+[7.552325] (autograder) StdoutLine: {'line': b'Installing test_topic_1_3 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/autograder\n'}
+[7.564329] (autograder) StdoutLine: {'line': b'Installing test_topic_1_4 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/autograder\n'}
+[7.575472] (autograder) StdoutLine: {'line': b'Installing test_topic_3_2 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/autograder\n'}
+[7.589537] (autograder) StdoutLine: {'line': b'Installing test_topic_4_3 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/autograder\n'}
+[7.602253] (autograder) StdoutLine: {'line': b'Installing test_topic_4_4 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/autograder\n'}
+[7.614444] (autograder) StdoutLine: {'line': b'Installing test_topic_5_1 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/autograder\n'}
+[7.627101] (autograder) StdoutLine: {'line': b'Installing test_topic_6_1 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/autograder\n'}
+[7.645650] (-) TimerEvent: {}
+[7.653796] (autograder) StdoutLine: {'line': b"writing list of installed files to '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/install.log'\n"}
+[7.695779] (autograder) CommandEnded: {'returncode': 0}
+[7.745770] (-) TimerEvent: {}
+[7.846484] (-) TimerEvent: {}
+[7.947108] (-) TimerEvent: {}
+[8.047860] (-) TimerEvent: {}
+[8.112434] (autograder) JobEnded: {'identifier': 'autograder', 'rc': 0}
+[8.147979] (-) TimerEvent: {}
+[8.248724] (-) TimerEvent: {}
+[8.349378] (-) TimerEvent: {}
+[8.450177] (-) TimerEvent: {}
+[8.550752] (-) TimerEvent: {}
+[8.651505] (-) TimerEvent: {}
+[8.752366] (-) TimerEvent: {}
+[8.761657] (tutorial_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[8.852467] (-) TimerEvent: {}
+[8.953115] (-) TimerEvent: {}
+[9.053938] (-) TimerEvent: {}
+[9.154764] (-) TimerEvent: {}
+[9.255423] (-) TimerEvent: {}
+[9.356188] (-) TimerEvent: {}
+[9.456900] (-) TimerEvent: {}
+[9.557721] (-) TimerEvent: {}
+[9.658494] (-) TimerEvent: {}
+[9.759180] (-) TimerEvent: {}
+[9.860137] (-) TimerEvent: {}
+[9.960920] (-) TimerEvent: {}
+[10.061597] (-) TimerEvent: {}
+[10.162438] (-) TimerEvent: {}
+[10.263163] (-) TimerEvent: {}
+[10.363776] (-) TimerEvent: {}
+[10.464534] (-) TimerEvent: {}
+[10.565260] (-) TimerEvent: {}
+[10.666090] (-) TimerEvent: {}
+[10.766766] (-) TimerEvent: {}
+[10.869469] (-) TimerEvent: {}
+[10.970212] (-) TimerEvent: {}
+[11.070797] (-) TimerEvent: {}
+[11.171508] (-) TimerEvent: {}
+[11.272166] (-) TimerEvent: {}
+[11.372744] (-) TimerEvent: {}
+[11.473300] (-) TimerEvent: {}
+[11.573929] (-) TimerEvent: {}
+[11.676037] (-) TimerEvent: {}
+[11.776597] (-) TimerEvent: {}
+[11.877201] (-) TimerEvent: {}
+[11.977816] (-) TimerEvent: {}
+[12.078438] (-) TimerEvent: {}
+[12.179041] (-) TimerEvent: {}
+[12.279824] (-) TimerEvent: {}
+[12.380538] (-) TimerEvent: {}
+[12.481163] (-) TimerEvent: {}
+[12.581899] (-) TimerEvent: {}
+[12.682644] (-) TimerEvent: {}
+[12.783368] (-) TimerEvent: {}
+[12.884036] (-) TimerEvent: {}
+[12.931367] (tutorial_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.984158] (-) TimerEvent: {}
+[13.084946] (-) TimerEvent: {}
+[13.185895] (-) TimerEvent: {}
+[13.286682] (-) TimerEvent: {}
+[13.387289] (-) TimerEvent: {}
+[13.487946] (-) TimerEvent: {}
+[13.588582] (-) TimerEvent: {}
+[13.689292] (-) TimerEvent: {}
+[13.789834] (-) TimerEvent: {}
+[13.890453] (-) TimerEvent: {}
+[13.991395] (-) TimerEvent: {}
+[14.092161] (-) TimerEvent: {}
+[14.192736] (-) TimerEvent: {}
+[14.293512] (-) TimerEvent: {}
+[14.394270] (-) TimerEvent: {}
+[14.494782] (-) TimerEvent: {}
+[14.595444] (-) TimerEvent: {}
+[14.696193] (-) TimerEvent: {}
+[14.796873] (-) TimerEvent: {}
+[14.897565] (-) TimerEvent: {}
+[14.998420] (-) TimerEvent: {}
+[15.099158] (-) TimerEvent: {}
+[15.199834] (-) TimerEvent: {}
+[15.300643] (-) TimerEvent: {}
+[15.401487] (-) TimerEvent: {}
+[15.502173] (-) TimerEvent: {}
+[15.602962] (-) TimerEvent: {}
+[15.703722] (-) TimerEvent: {}
+[15.804582] (-) TimerEvent: {}
+[15.906237] (-) TimerEvent: {}
+[16.006792] (-) TimerEvent: {}
+[16.107453] (-) TimerEvent: {}
+[16.208172] (-) TimerEvent: {}
+[16.308788] (-) TimerEvent: {}
+[16.409527] (-) TimerEvent: {}
+[16.510291] (-) TimerEvent: {}
+[16.610852] (-) TimerEvent: {}
+[16.711567] (-) TimerEvent: {}
+[16.812212] (-) TimerEvent: {}
+[16.912877] (-) TimerEvent: {}
+[17.013572] (-) TimerEvent: {}
+[17.114273] (-) TimerEvent: {}
+[17.215049] (-) TimerEvent: {}
+[17.315931] (-) TimerEvent: {}
+[17.416643] (-) TimerEvent: {}
+[17.517380] (-) TimerEvent: {}
+[17.618106] (-) TimerEvent: {}
+[17.718802] (-) TimerEvent: {}
+[17.819477] (-) TimerEvent: {}
+[17.920379] (-) TimerEvent: {}
+[18.021074] (-) TimerEvent: {}
+[18.121859] (-) TimerEvent: {}
+[18.222718] (-) TimerEvent: {}
+[18.323577] (-) TimerEvent: {}
+[18.424751] (-) TimerEvent: {}
+[18.525703] (-) TimerEvent: {}
+[18.626534] (-) TimerEvent: {}
+[18.694754] (tutorial_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[18.716798] (tutorial_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[18.726680] (-) TimerEvent: {}
+[18.827467] (-) TimerEvent: {}
+[18.879028] (tutorial_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[18.928651] (-) TimerEvent: {}
+[19.029766] (-) TimerEvent: {}
+[19.130611] (-) TimerEvent: {}
+[19.231388] (-) TimerEvent: {}
+[19.332142] (-) TimerEvent: {}
+[19.383438] (tutorial_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[19.432208] (-) TimerEvent: {}
+[19.532832] (-) TimerEvent: {}
+[19.633880] (-) TimerEvent: {}
+[19.734734] (-) TimerEvent: {}
+[19.835439] (-) TimerEvent: {}
+[19.936118] (-) TimerEvent: {}
+[20.036802] (-) TimerEvent: {}
+[20.137457] (-) TimerEvent: {}
+[20.238189] (-) TimerEvent: {}
+[20.338773] (-) TimerEvent: {}
+[20.439421] (-) TimerEvent: {}
+[20.540156] (-) TimerEvent: {}
+[20.640977] (-) TimerEvent: {}
+[20.741726] (-) TimerEvent: {}
+[20.842529] (-) TimerEvent: {}
+[20.943221] (-) TimerEvent: {}
+[21.043940] (-) TimerEvent: {}
+[21.144759] (-) TimerEvent: {}
+[21.245608] (-) TimerEvent: {}
+[21.346651] (-) TimerEvent: {}
+[21.447391] (-) TimerEvent: {}
+[21.548130] (-) TimerEvent: {}
+[21.649040] (-) TimerEvent: {}
+[21.749773] (-) TimerEvent: {}
+[21.850545] (-) TimerEvent: {}
+[21.951360] (-) TimerEvent: {}
+[22.053961] (-) TimerEvent: {}
+[22.149395] (tutorial_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[22.154073] (-) TimerEvent: {}
+[22.196245] (tutorial_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[22.254189] (-) TimerEvent: {}
+[22.354892] (-) TimerEvent: {}
+[22.455565] (-) TimerEvent: {}
+[22.556202] (-) TimerEvent: {}
+[22.656772] (-) TimerEvent: {}
+[22.757572] (-) TimerEvent: {}
+[22.858322] (-) TimerEvent: {}
+[22.958971] (-) TimerEvent: {}
+[22.975439] (tutorial_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[23.059058] (-) TimerEvent: {}
+[23.155189] (tutorial_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[23.159253] (-) TimerEvent: {}
+[23.260348] (-) TimerEvent: {}
+[23.361675] (-) TimerEvent: {}
+[23.462560] (-) TimerEvent: {}
+[23.563153] (-) TimerEvent: {}
+[23.597402] (tutorial_msgs) StdoutLine: {'line': b'-- Configuring done (22.4s)\n'}
+[23.663248] (-) TimerEvent: {}
+[23.763934] (-) TimerEvent: {}
+[23.864871] (-) TimerEvent: {}
+[23.965600] (-) TimerEvent: {}
+[24.066312] (-) TimerEvent: {}
+[24.166938] (-) TimerEvent: {}
+[24.267631] (-) TimerEvent: {}
+[24.368352] (-) TimerEvent: {}
+[24.469075] (-) TimerEvent: {}
+[24.569748] (-) TimerEvent: {}
+[24.670536] (-) TimerEvent: {}
+[24.771415] (-) TimerEvent: {}
+[24.872189] (-) TimerEvent: {}
+[24.972867] (-) TimerEvent: {}
+[25.073647] (-) TimerEvent: {}
+[25.174387] (-) TimerEvent: {}
+[25.275017] (-) TimerEvent: {}
+[25.375695] (-) TimerEvent: {}
+[25.476603] (-) TimerEvent: {}
+[25.577334] (-) TimerEvent: {}
+[25.595349] (tutorial_msgs) StdoutLine: {'line': b'-- Generating done (1.8s)\n'}
+[25.677472] (-) TimerEvent: {}
+[25.778143] (-) TimerEvent: {}
+[25.878955] (-) TimerEvent: {}
+[25.979626] (-) TimerEvent: {}
+[26.080303] (-) TimerEvent: {}
+[26.181136] (-) TimerEvent: {}
+[26.282105] (-) TimerEvent: {}
+[26.382870] (-) TimerEvent: {}
+[26.483641] (-) TimerEvent: {}
+[26.510628] (tutorial_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs\n'}
+[26.521585] (tutorial_msgs) CommandEnded: {'returncode': 0}
+[26.526119] (tutorial_msgs) JobProgress: {'identifier': 'tutorial_msgs', 'progress': 'build'}
+[26.531201] (tutorial_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs', '--', '-j16', '-l16'], 'cwd': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs', 'env': OrderedDict({'IGN_IP': '127.0.0.1', 'GZ_SIM_RESOURCE_PATH': '/usr/share/gz', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'DESKTOP-409D67E', 'GIT_ASKPASS': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/bin/helpers/browser.sh', 'HOME': '/home/ros-tutorial', 'OLDPWD': '/home/ros-tutorial/colcon_ws/src', 'TERM_PROGRAM_VERSION': '1.145.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5233811f-8603-41df-9d33-71c31625e238.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-ff72a195-ebbb-4440-a59c-81fe4f98b1a6.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'GZ_RELAY': '127.0.0.1', 'TERM': 'xterm-256color', 'PATH': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ros-tutorial/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/bin/copilot-shim', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GZ_PARTITION': '', 'REMOTE_CONTAINERS_SOCKETS': '["/run/user/1000/gnupg/S.gpg-agent"]', 'DISPLAY': 'milesmiles_ros-tutorial_v26-08-1-novnc:0.0', 'LANG': 'C.UTF-8', 'GZ_IP': '127.0.0.1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2c2a866b13.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': 'bash', 'GZ_TRANSPORT_USE_MULTICAST': '0', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'BASH_ENV': '/home/ros-tutorial/.bashrc', 'PWD': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs', 'LC_ALL': 'C.UTF-8', 'COPILOT_DEBUG_NONCE': '87db4f249cab4f01a970879abd26376a', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'IGN_PARTITION': ''}), 'shell': False}
+[26.583726] (-) TimerEvent: {}
+[26.684365] (-) TimerEvent: {}
+[26.784939] (-) TimerEvent: {}
+[26.807664] (tutorial_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[26.822015] (tutorial_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[26.861495] (tutorial_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_tutorial_msgs\n'}
+[26.885010] (-) TimerEvent: {}
+[26.985799] (-) TimerEvent: {}
+[27.086828] (-) TimerEvent: {}
+[27.109234] (tutorial_msgs) StdoutLine: {'line': b'[  5%] Built target tutorial_msgs__rosidl_generator_type_description\n'}
+[27.167001] (tutorial_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[27.186938] (-) TimerEvent: {}
+[27.195838] (tutorial_msgs) StdoutLine: {'line': b'[ 11%] Built target tutorial_msgs__rs\n'}
+[27.197990] (tutorial_msgs) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[27.209643] (tutorial_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[27.211625] (tutorial_msgs) StdoutLine: {'line': b'creating tutorial_msgs.egg-info\n'}
+[27.234001] (tutorial_msgs) StdoutLine: {'line': b'writing tutorial_msgs.egg-info/PKG-INFO\n'}
+[27.238143] (tutorial_msgs) StdoutLine: {'line': b'writing dependency_links to tutorial_msgs.egg-info/dependency_links.txt\n'}
+[27.243986] (tutorial_msgs) StdoutLine: {'line': b'writing top-level names to tutorial_msgs.egg-info/top_level.txt\n'}
+[27.248270] (tutorial_msgs) StdoutLine: {'line': b"writing manifest file 'tutorial_msgs.egg-info/SOURCES.txt'\n"}
+[27.287038] (-) TimerEvent: {}
+[27.333589] (tutorial_msgs) StdoutLine: {'line': b"reading manifest file 'tutorial_msgs.egg-info/SOURCES.txt'\n"}
+[27.358364] (tutorial_msgs) StdoutLine: {'line': b"writing manifest file 'tutorial_msgs.egg-info/SOURCES.txt'\n"}
+[27.387144] (-) TimerEvent: {}
+[27.415285] (tutorial_msgs) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_tutorial_msgs_egg\n'}
+[27.487255] (-) TimerEvent: {}
+[27.588034] (-) TimerEvent: {}
+[27.662981] (tutorial_msgs) StdoutLine: {'line': b'[ 11%] Built target tutorial_msgs__cpp\n'}
+[27.688170] (-) TimerEvent: {}
+[27.752486] (tutorial_msgs) StderrLine: {'line': b"gmake[2]: Warning: File 'rosidl_generator_c/tutorial_msgs/srv/detail/get_buoy_location__description.c' has modification time 0.17 s in the future\n"}
+[27.775810] (tutorial_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/tutorial_msgs__rosidl_generator_c.dir/rosidl_generator_c/tutorial_msgs/srv/detail/get_buoy_location__description.c.o\x1b[0m\n'}
+[27.780056] (tutorial_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/tutorial_msgs__rosidl_generator_c.dir/rosidl_generator_c/tutorial_msgs/srv/detail/get_buoy_location__functions.c.o\x1b[0m\n'}
+[27.788268] (-) TimerEvent: {}
+[27.792420] (tutorial_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/tutorial_msgs__rosidl_generator_c.dir/rosidl_generator_c/tutorial_msgs/srv/detail/get_buoy_location__type_support.c.o\x1b[0m\n'}
+[27.888337] (-) TimerEvent: {}
+[27.975659] (tutorial_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libtutorial_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[27.988418] (-) TimerEvent: {}
+[28.088991] (-) TimerEvent: {}
+[28.114855] (tutorial_msgs) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[28.146142] (tutorial_msgs) StdoutLine: {'line': b'[ 22%] Built target tutorial_msgs__rosidl_generator_c\n'}
+[28.189083] (-) TimerEvent: {}
+[28.201192] (tutorial_msgs) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[28.203371] (tutorial_msgs) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[28.205383] (tutorial_msgs) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[28.207544] (tutorial_msgs) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[28.209391] (tutorial_msgs) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[28.213603] (tutorial_msgs) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[28.289192] (-) TimerEvent: {}
+[28.390001] (-) TimerEvent: {}
+[28.490967] (-) TimerEvent: {}
+[28.570197] (tutorial_msgs) StderrLine: {'line': b"gmake[2]: Warning: File 'rosidl_typesupport_cpp/tutorial_msgs/srv/get_buoy_location__type_support.cpp' has modification time 0.21 s in the future\n"}
+[28.584872] (tutorial_msgs) StderrLine: {'line': b"gmake[2]: Warning: File 'rosidl_typesupport_c/tutorial_msgs/srv/get_buoy_location__type_support.cpp' has modification time 0.21 s in the future\n"}
+[28.591198] (-) TimerEvent: {}
+[28.596226] (tutorial_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_msgs/srv/get_buoy_location__type_support.cpp.o\x1b[0m\n'}
+[28.614876] (tutorial_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_msgs/srv/get_buoy_location__type_support.cpp.o\x1b[0m\n'}
+[28.646741] (tutorial_msgs) StderrLine: {'line': b"gmake[2]: Warning: File 'rosidl_typesupport_introspection_cpp/tutorial_msgs/srv/detail/get_buoy_location__type_support.cpp' has modification time 0.22 s in the future\n"}
+[28.667336] (tutorial_msgs) StderrLine: {'line': b"gmake[2]: Warning: File 'rosidl_typesupport_introspection_c/tutorial_msgs/srv/detail/get_buoy_location__type_support.c' has modification time 0.22 s in the future\n"}
+[28.677006] (tutorial_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_msgs/srv/detail/get_buoy_location__type_support.cpp.o\x1b[0m\n'}
+[28.691304] (-) TimerEvent: {}
+[28.697318] (tutorial_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/tutorial_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_msgs/srv/detail/get_buoy_location__type_support.c.o\x1b[0m\n'}
+[28.728169] (tutorial_msgs) StderrLine: {'line': b"gmake[2]: Warning: File 'rosidl_typesupport_fastrtps_cpp/tutorial_msgs/srv/detail/dds_fastrtps/get_buoy_location__type_support.cpp' has modification time 0.17 s in the future\n"}
+[28.731290] (tutorial_msgs) StderrLine: {'line': b"gmake[2]: Warning: File 'rosidl_typesupport_fastrtps_c/tutorial_msgs/srv/detail/get_buoy_location__type_support_c.cpp' has modification time 0.23 s in the future\n"}
+[28.758620] (tutorial_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_msgs/srv/detail/dds_fastrtps/get_buoy_location__type_support.cpp.o\x1b[0m\n'}
+[28.762230] (tutorial_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_msgs/srv/detail/get_buoy_location__type_support_c.cpp.o\x1b[0m\n'}
+[28.791404] (-) TimerEvent: {}
+[28.892454] (-) TimerEvent: {}
+[28.932878] (tutorial_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[28.992554] (-) TimerEvent: {}
+[29.051802] (tutorial_msgs) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[29.083688] (tutorial_msgs) StdoutLine: {'line': b'[ 60%] Built target tutorial_msgs__rosidl_typesupport_c\n'}
+[29.092847] (-) TimerEvent: {}
+[29.113886] (tutorial_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library libtutorial_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[29.192850] (-) TimerEvent: {}
+[29.233133] (tutorial_msgs) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[29.263937] (tutorial_msgs) StdoutLine: {'line': b'[ 62%] Built target tutorial_msgs__rosidl_typesupport_introspection_c\n'}
+[29.292946] (-) TimerEvent: {}
+[29.393761] (-) TimerEvent: {}
+[29.494576] (-) TimerEvent: {}
+[29.595580] (-) TimerEvent: {}
+[29.668548] (tutorial_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[29.695675] (-) TimerEvent: {}
+[29.796474] (-) TimerEvent: {}
+[29.890931] (tutorial_msgs) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[29.896539] (-) TimerEvent: {}
+[29.919063] (tutorial_msgs) StdoutLine: {'line': b'[ 65%] Built target tutorial_msgs__rosidl_typesupport_cpp\n'}
+[29.966566] (tutorial_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[29.996616] (-) TimerEvent: {}
+[30.056600] (tutorial_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[30.096697] (-) TimerEvent: {}
+[30.197395] (-) TimerEvent: {}
+[30.200495] (tutorial_msgs) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[30.232270] (tutorial_msgs) StdoutLine: {'line': b'[ 71%] Built target tutorial_msgs__rosidl_typesupport_introspection_cpp\n'}
+[30.259080] (tutorial_msgs) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[30.288590] (tutorial_msgs) StdoutLine: {'line': b'[ 71%] Built target tutorial_msgs__rosidl_typesupport_fastrtps_c\n'}
+[30.297468] (-) TimerEvent: {}
+[30.398114] (-) TimerEvent: {}
+[30.413857] (tutorial_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[30.498229] (-) TimerEvent: {}
+[30.599124] (-) TimerEvent: {}
+[30.672822] (tutorial_msgs) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[30.699232] (-) TimerEvent: {}
+[30.699963] (tutorial_msgs) StdoutLine: {'line': b'[ 74%] Built target tutorial_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[30.759892] (tutorial_msgs) StdoutLine: {'line': b'[ 74%] Built target tutorial_msgs\n'}
+[30.799330] (-) TimerEvent: {}
+[30.837897] (tutorial_msgs) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[30.899433] (-) TimerEvent: {}
+[31.001191] (-) TimerEvent: {}
+[31.102103] (-) TimerEvent: {}
+[31.202856] (-) TimerEvent: {}
+[31.276362] (tutorial_msgs) StdoutLine: {'line': b'[ 77%] Built target tutorial_msgs__py\n'}
+[31.302991] (-) TimerEvent: {}
+[31.380704] (tutorial_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/tutorial_msgs__rosidl_generator_py.dir/rosidl_generator_py/tutorial_msgs/srv/_get_buoy_location_s.c.o\x1b[0m\n'}
+[31.403097] (-) TimerEvent: {}
+[31.503834] (-) TimerEvent: {}
+[31.604445] (-) TimerEvent: {}
+[31.705156] (-) TimerEvent: {}
+[31.806121] (-) TimerEvent: {}
+[31.906802] (-) TimerEvent: {}
+[31.945227] (tutorial_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libtutorial_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[32.006912] (-) TimerEvent: {}
+[32.095161] (tutorial_msgs) StdoutLine: {'line': b'[ 82%] Built target tutorial_msgs__rosidl_generator_py\n'}
+[32.107041] (-) TimerEvent: {}
+[32.180629] (tutorial_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/tutorial_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/tutorial_msgs/_tutorial_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[32.182528] (tutorial_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/tutorial_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/tutorial_msgs/_tutorial_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[32.184101] (tutorial_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/tutorial_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/tutorial_msgs/_tutorial_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[32.207153] (-) TimerEvent: {}
+[32.310093] (-) TimerEvent: {}
+[32.411590] (-) TimerEvent: {}
+[32.512465] (-) TimerEvent: {}
+[32.613126] (-) TimerEvent: {}
+[32.666481] (tutorial_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[32.713187] (-) TimerEvent: {}
+[32.758225] (tutorial_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[32.774529] (tutorial_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[32.813275] (-) TimerEvent: {}
+[32.846487] (tutorial_msgs) StdoutLine: {'line': b'[100%] Built target tutorial_msgs_s__rosidl_typesupport_c\n'}
+[32.890427] (tutorial_msgs) StdoutLine: {'line': b'[100%] Built target tutorial_msgs_s__rosidl_typesupport_introspection_c\n'}
+[32.913357] (-) TimerEvent: {}
+[32.916310] (tutorial_msgs) StdoutLine: {'line': b'[100%] Built target tutorial_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[33.013481] (-) TimerEvent: {}
+[33.061174] (tutorial_msgs) CommandEnded: {'returncode': 0}
+[33.078153] (tutorial_msgs) JobProgress: {'identifier': 'tutorial_msgs', 'progress': 'install'}
+[33.095424] (tutorial_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs'], 'cwd': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs', 'env': OrderedDict({'IGN_IP': '127.0.0.1', 'GZ_SIM_RESOURCE_PATH': '/usr/share/gz', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'DESKTOP-409D67E', 'GIT_ASKPASS': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/bin/helpers/browser.sh', 'HOME': '/home/ros-tutorial', 'OLDPWD': '/home/ros-tutorial/colcon_ws/src', 'TERM_PROGRAM_VERSION': '1.145.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5233811f-8603-41df-9d33-71c31625e238.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-ff72a195-ebbb-4440-a59c-81fe4f98b1a6.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'GZ_RELAY': '127.0.0.1', 'TERM': 'xterm-256color', 'PATH': '/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ros-tutorial/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ros-tutorial/.vscode-server/bin/a717861c07586a53d83b80d742cd3f59b20a6273/bin/copilot-shim', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GZ_PARTITION': '', 'REMOTE_CONTAINERS_SOCKETS': '["/run/user/1000/gnupg/S.gpg-agent"]', 'DISPLAY': 'milesmiles_ros-tutorial_v26-08-1-novnc:0.0', 'LANG': 'C.UTF-8', 'GZ_IP': '127.0.0.1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2c2a866b13.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': 'bash', 'GZ_TRANSPORT_USE_MULTICAST': '0', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'BASH_ENV': '/home/ros-tutorial/.bashrc', 'PWD': '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/tutorial_msgs', 'LC_ALL': 'C.UTF-8', 'COPILOT_DEBUG_NONCE': '87db4f249cab4f01a970879abd26376a', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'IGN_PARTITION': ''}), 'shell': False}
+[33.113663] (-) TimerEvent: {}
+[33.117377] (tutorial_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.156165] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/ament_index/resource_index/rosidl_interfaces/tutorial_msgs\n'}
+[33.213781] (-) TimerEvent: {}
+[33.263518] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/srv/GetBuoyLocation.json\n'}
+[33.313929] (-) TimerEvent: {}
+[33.328518] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs\n'}
+[33.360306] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg\n'}
+[33.397452] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[33.414075] (-) TimerEvent: {}
+[33.476810] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv\n'}
+[33.510143] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail\n'}
+[33.514170] (-) TimerEvent: {}
+[33.553625] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__description.c\n'}
+[33.614330] (-) TimerEvent: {}
+[33.665778] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__functions.c\n'}
+[33.714505] (-) TimerEvent: {}
+[33.776880] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__functions.h\n'}
+[33.814580] (-) TimerEvent: {}
+[33.885365] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__struct.h\n'}
+[33.914698] (-) TimerEvent: {}
+[33.980711] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__type_support.c\n'}
+[34.014771] (-) TimerEvent: {}
+[34.080147] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__type_support.h\n'}
+[34.114817] (-) TimerEvent: {}
+[34.177165] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/get_buoy_location.h\n'}
+[34.214883] (-) TimerEvent: {}
+[34.260475] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/environment/library_path.sh\n'}
+[34.314930] (-) TimerEvent: {}
+[34.326622] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/environment/library_path.dsv\n'}
+[34.389524] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_generator_c.so\n'}
+[34.415042] (-) TimerEvent: {}
+[34.473182] (tutorial_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_generator_c.so" to ""\n'}
+[34.485440] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs\n'}
+[34.515153] (-) TimerEvent: {}
+[34.516626] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg\n'}
+[34.547327] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[34.615268] (-) TimerEvent: {}
+[34.629203] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv\n'}
+[34.657985] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail\n'}
+[34.693346] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__rosidl_typesupport_fastrtps_c.h\n'}
+[34.715383] (-) TimerEvent: {}
+[34.788858] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[34.815504] (-) TimerEvent: {}
+[34.875954] (tutorial_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[34.887730] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs\n'}
+[34.910453] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg\n'}
+[34.915593] (-) TimerEvent: {}
+[34.937646] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[35.015729] (-) TimerEvent: {}
+[35.024952] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv\n'}
+[35.056266] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail\n'}
+[35.115988] (-) TimerEvent: {}
+[35.128828] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__rosidl_typesupport_introspection_c.h\n'}
+[35.216110] (-) TimerEvent: {}
+[35.238600] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__type_support.c\n'}
+[35.316227] (-) TimerEvent: {}
+[35.341068] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_introspection_c.so\n'}
+[35.416382] (-) TimerEvent: {}
+[35.430039] (tutorial_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[35.448720] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_c.so\n'}
+[35.516478] (-) TimerEvent: {}
+[35.542114] (tutorial_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_c.so" to ""\n'}
+[35.554371] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs\n'}
+[35.580331] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg\n'}
+[35.607511] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[35.616577] (-) TimerEvent: {}
+[35.690840] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv\n'}
+[35.716691] (-) TimerEvent: {}
+[35.724727] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail\n'}
+[35.763503] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__builder.hpp\n'}
+[35.816739] (-) TimerEvent: {}
+[35.868214] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__struct.hpp\n'}
+[35.919912] (-) TimerEvent: {}
+[35.979087] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__traits.hpp\n'}
+[36.020019] (-) TimerEvent: {}
+[36.083802] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__type_support.hpp\n'}
+[36.120122] (-) TimerEvent: {}
+[36.175776] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/get_buoy_location.hpp\n'}
+[36.220235] (-) TimerEvent: {}
+[36.253845] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs\n'}
+[36.278249] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg\n'}
+[36.310387] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[36.320340] (-) TimerEvent: {}
+[36.393719] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv\n'}
+[36.420541] (-) TimerEvent: {}
+[36.425415] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail\n'}
+[36.454446] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/dds_fastrtps\n'}
+[36.503388] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[36.520639] (-) TimerEvent: {}
+[36.590640] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[36.620748] (-) TimerEvent: {}
+[36.694687] (tutorial_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[36.707159] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs\n'}
+[36.720856] (-) TimerEvent: {}
+[36.733116] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv\n'}
+[36.764315] (tutorial_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail\n'}
+[36.797046] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__rosidl_typesupport_introspection_cpp.hpp\n'}
+[36.823274] (-) TimerEvent: {}
+[36.894637] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/include/tutorial_msgs/tutorial_msgs/srv/detail/get_buoy_location__type_support.cpp\n'}
+[36.923430] (-) TimerEvent: {}
+[36.986374] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[37.023554] (-) TimerEvent: {}
+[37.072917] (tutorial_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[37.087540] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_cpp.so\n'}
+[37.123666] (-) TimerEvent: {}
+[37.171200] (tutorial_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[37.189345] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/environment/pythonpath.sh\n'}
+[37.223783] (-) TimerEvent: {}
+[37.262306] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/environment/pythonpath.dsv\n'}
+[37.323896] (-) TimerEvent: {}
+[37.337757] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs-0.0.0-py3.12.egg-info\n'}
+[37.384690] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[37.424018] (-) TimerEvent: {}
+[37.471291] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[37.524652] (-) TimerEvent: {}
+[37.561634] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[37.624998] (-) TimerEvent: {}
+[37.644925] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[37.719483] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs\n'}
+[37.725092] (-) TimerEvent: {}
+[37.755111] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/srv\n'}
+[37.795187] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/srv/_get_buoy_location.py\n'}
+[37.825198] (-) TimerEvent: {}
+[37.882828] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/srv/_get_buoy_location_s.c\n'}
+[37.925303] (-) TimerEvent: {}
+[37.977914] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/srv/__init__.py\n'}
+[38.025399] (-) TimerEvent: {}
+[38.060219] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_c.so\n'}
+[38.125506] (-) TimerEvent: {}
+[38.133620] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[38.221177] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[38.225610] (-) TimerEvent: {}
+[38.321329] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/_tutorial_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[38.325716] (-) TimerEvent: {}
+[38.401455] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/_tutorial_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[38.425822] (-) TimerEvent: {}
+[38.482761] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/_tutorial_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[38.525916] (-) TimerEvent: {}
+[38.558440] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/__init__.py\n'}
+[38.626038] (-) TimerEvent: {}
+[38.726670] (-) TimerEvent: {}
+[38.827382] (-) TimerEvent: {}
+[38.890911] (tutorial_msgs) StdoutLine: {'line': b"Listing '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs'...\n"}
+[38.892818] (tutorial_msgs) StdoutLine: {'line': b"Compiling '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/__init__.py'...\n"}
+[38.894290] (tutorial_msgs) StdoutLine: {'line': b"Listing '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/srv'...\n"}
+[38.895773] (tutorial_msgs) StdoutLine: {'line': b"Compiling '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/srv/__init__.py'...\n"}
+[38.897455] (tutorial_msgs) StdoutLine: {'line': b"Compiling '/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/srv/_get_buoy_location.py'...\n"}
+[38.927479] (-) TimerEvent: {}
+[38.949175] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[39.027617] (-) TimerEvent: {}
+[39.066494] (tutorial_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[39.126966] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[39.128661] (-) TimerEvent: {}
+[39.229194] (-) TimerEvent: {}
+[39.251459] (tutorial_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[39.313077] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_c.so\n'}
+[39.329297] (-) TimerEvent: {}
+[39.429907] (-) TimerEvent: {}
+[39.441593] (tutorial_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/python3.12/site-packages/tutorial_msgs/tutorial_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[39.461069] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_generator_py.so\n'}
+[39.529999] (-) TimerEvent: {}
+[39.549935] (tutorial_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/lib/libtutorial_msgs__rosidl_generator_py.so" to ""\n'}
+[39.559188] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/rust\n'}
+[39.589066] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/rust/build.rs\n'}
+[39.630097] (-) TimerEvent: {}
+[39.659449] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/rust/Cargo.toml\n'}
+[39.722096] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/rust/src\n'}
+[39.730202] (-) TimerEvent: {}
+[39.764285] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/rust/src/lib.rs\n'}
+[39.830304] (-) TimerEvent: {}
+[39.844857] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/rust/src/srv\n'}
+[39.889233] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/rust/src/srv/rmw.rs\n'}
+[39.930416] (-) TimerEvent: {}
+[39.982726] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/rust/src/srv.rs\n'}
+[40.030491] (-) TimerEvent: {}
+[40.070138] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/srv/GetBuoyLocation.idl\n'}
+[40.130591] (-) TimerEvent: {}
+[40.147978] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/srv/GetBuoyLocation.srv\n'}
+[40.230658] (-) TimerEvent: {}
+[40.240444] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/ament_index/resource_index/package_run_dependencies/tutorial_msgs\n'}
+[40.330757] (-) TimerEvent: {}
+[40.345833] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/ament_index/resource_index/parent_prefix_path/tutorial_msgs\n'}
+[40.424201] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/environment/ament_prefix_path.sh\n'}
+[40.430831] (-) TimerEvent: {}
+[40.482951] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/environment/ament_prefix_path.dsv\n'}
+[40.530881] (-) TimerEvent: {}
+[40.543316] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/environment/path.sh\n'}
+[40.601806] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/environment/path.dsv\n'}
+[40.630942] (-) TimerEvent: {}
+[40.668882] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/local_setup.bash\n'}
+[40.725754] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/local_setup.sh\n'}
+[40.731031] (-) TimerEvent: {}
+[40.781708] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/local_setup.zsh\n'}
+[40.831303] (-) TimerEvent: {}
+[40.841012] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/local_setup.dsv\n'}
+[40.897607] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/package.dsv\n'}
+[40.931397] (-) TimerEvent: {}
+[40.979199] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/ament_index/resource_index/packages/tutorial_msgs\n'}
+[41.031479] (-) TimerEvent: {}
+[41.079083] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/export_tutorial_msgs__rosidl_generator_cExport.cmake\n'}
+[41.131552] (-) TimerEvent: {}
+[41.154179] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/export_tutorial_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[41.231655] (-) TimerEvent: {}
+[41.232190] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/export_tutorial_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[41.307401] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/export_tutorial_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[41.331764] (-) TimerEvent: {}
+[41.381351] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[41.431900] (-) TimerEvent: {}
+[41.460662] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[41.531984] (-) TimerEvent: {}
+[41.541749] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgs__rosidl_typesupport_cExport.cmake\n'}
+[41.617037] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[41.632087] (-) TimerEvent: {}
+[41.690872] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/export_tutorial_msgs__rosidl_generator_cppExport.cmake\n'}
+[41.732193] (-) TimerEvent: {}
+[41.771263] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/export_tutorial_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[41.832276] (-) TimerEvent: {}
+[41.846877] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/export_tutorial_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[41.932407] (-) TimerEvent: {}
+[41.934700] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[42.013338] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[42.032480] (-) TimerEvent: {}
+[42.093215] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[42.132587] (-) TimerEvent: {}
+[42.174314] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[42.232718] (-) TimerEvent: {}
+[42.250296] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/export_tutorial_msgs__rosidl_generator_pyExport.cmake\n'}
+[42.326184] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/export_tutorial_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[42.332811] (-) TimerEvent: {}
+[42.403560] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[42.432926] (-) TimerEvent: {}
+[42.467899] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[42.532993] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[42.534688] (-) TimerEvent: {}
+[42.602651] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[42.634770] (-) TimerEvent: {}
+[42.666783] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[42.731702] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[42.734828] (-) TimerEvent: {}
+[42.801037] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[42.834921] (-) TimerEvent: {}
+[42.870676] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[42.934979] (-) TimerEvent: {}
+[42.936621] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgsConfig.cmake\n'}
+[42.995496] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/cmake/tutorial_msgsConfig-version.cmake\n'}
+[43.035044] (-) TimerEvent: {}
+[43.067022] (tutorial_msgs) StdoutLine: {'line': b'-- Installing: /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/tutorial_msgs/share/tutorial_msgs/package.xml\n'}
+[43.135140] (-) TimerEvent: {}
+[43.138161] (tutorial_msgs) CommandEnded: {'returncode': 0}
+[43.235233] (-) TimerEvent: {}
+[43.335860] (-) TimerEvent: {}
+[43.436468] (-) TimerEvent: {}
+[43.537063] (-) TimerEvent: {}
+[43.639343] (-) TimerEvent: {}
+[43.740280] (-) TimerEvent: {}
+[43.841380] (-) TimerEvent: {}
+[43.943030] (-) TimerEvent: {}
+[44.047382] (-) TimerEvent: {}
+[44.149260] (-) TimerEvent: {}
+[44.250250] (-) TimerEvent: {}
+[44.353244] (-) TimerEvent: {}
+[44.454040] (-) TimerEvent: {}
+[44.554790] (-) TimerEvent: {}
+[44.655345] (-) TimerEvent: {}
+[44.755969] (-) TimerEvent: {}
+[44.768445] (tutorial_msgs) JobEnded: {'identifier': 'tutorial_msgs', 'rc': 0}
+[44.776422] (-) EventReactorShutdown: {}

@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tutorial_msgs/srv/GetBuoyLocation.srv
+// generated code does not contain a copyright notice
+
+
+module tutorial_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request" "\n"
+      "STUDENT CODE HERE")
+    struct GetBuoyLocation_Request {
+      string buoy_name;
+    };
+    @verbatim (language="comment", text=
+      "Response" "\n"
+      "STUDENT CODE HERE")
+    struct GetBuoyLocation_Response {
+      float x_pos;
+
+      float y_pos;
+
+      boolean found;
+    };
+  };
+};

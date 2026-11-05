@@ -1,0 +1,108 @@
+[2.816s] Invoking command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/autograder': PYTHONPATH=/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/autograder build --build-base /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build install --record /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/install.log --install-scripts $base/lib/autograder --single-version-externally-managed install_data
+[3.693s] running egg_info
+[3.695s] creating ../build/autograder/autograder.egg-info
+[3.724s] writing ../build/autograder/autograder.egg-info/PKG-INFO
+[3.734s] writing dependency_links to ../build/autograder/autograder.egg-info/dependency_links.txt
+[3.740s] writing entry points to ../build/autograder/autograder.egg-info/entry_points.txt
+[3.746s] writing requirements to ../build/autograder/autograder.egg-info/requires.txt
+[3.750s] writing top-level names to ../build/autograder/autograder.egg-info/top_level.txt
+[3.757s] writing manifest file '../build/autograder/autograder.egg-info/SOURCES.txt'
+[3.926s] reading manifest file '../build/autograder/autograder.egg-info/SOURCES.txt'
+[4.023s] writing manifest file '../build/autograder/autograder.egg-info/SOURCES.txt'
+[4.029s] running build
+[4.032s] running build_py
+[4.036s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build
+[4.038s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib
+[4.042s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder
+[4.058s] copying autograder/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder
+[4.080s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1
+[4.096s] copying autograder/topic_1/question_1_1_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1
+[4.135s] copying autograder/topic_1/question_1_2_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1
+[4.181s] copying autograder/topic_1/question_1_3_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1
+[4.223s] copying autograder/topic_1/question_1_4_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1
+[4.264s] copying autograder/topic_1/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1
+[4.289s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_3
+[4.303s] copying autograder/topic_3/question_3_2_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_3
+[4.337s] copying autograder/topic_3/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_3
+[4.362s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_4
+[4.375s] copying autograder/topic_4/question_4_3_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_4
+[4.417s] copying autograder/topic_4/question_4_4_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_4
+[4.455s] copying autograder/topic_4/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_4
+[4.478s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_5
+[4.492s] copying autograder/topic_5/question_5_1_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_5
+[4.535s] copying autograder/topic_5/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_5
+[4.561s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_6
+[4.574s] copying autograder/topic_6/question_6_1_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_6
+[4.614s] copying autograder/topic_6/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_6
+[4.636s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/utils
+[4.653s] copying autograder/utils/grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/utils
+[4.692s] copying autograder/utils/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/utils
+[4.726s] running install
+[4.735s] running install_lib
+[4.800s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder
+[4.824s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1
+[4.846s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1/question_1_1_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1
+[4.896s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1/question_1_2_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1
+[4.940s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1/question_1_3_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1
+[4.983s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1/question_1_4_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1
+[5.034s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_1/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1
+[5.079s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_3
+[5.104s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_3/question_3_2_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_3
+[5.155s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_3/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_3
+[5.198s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_4
+[5.221s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_4/question_4_3_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_4
+[5.276s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_4/question_4_4_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_4
+[5.327s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_4/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_4
+[5.372s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_5
+[5.397s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_5/question_5_1_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_5
+[5.447s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_5/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_5
+[5.489s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_6
+[5.521s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_6/question_6_1_grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_6
+[5.576s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/topic_6/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_6
+[5.628s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/utils
+[5.656s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/utils/grader.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/utils
+[5.705s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/utils/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/utils
+[5.747s] copying /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build/lib/autograder/__init__.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder
+[5.789s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1/question_1_1_grader.py to question_1_1_grader.cpython-312.pyc
+[5.852s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1/question_1_2_grader.py to question_1_2_grader.cpython-312.pyc
+[5.904s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1/question_1_3_grader.py to question_1_3_grader.cpython-312.pyc
+[5.952s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1/question_1_4_grader.py to question_1_4_grader.cpython-312.pyc
+[6.004s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_1/__init__.py to __init__.cpython-312.pyc
+[6.051s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_3/question_3_2_grader.py to question_3_2_grader.cpython-312.pyc
+[6.104s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_3/__init__.py to __init__.cpython-312.pyc
+[6.154s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_4/question_4_3_grader.py to question_4_3_grader.cpython-312.pyc
+[6.214s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_4/question_4_4_grader.py to question_4_4_grader.cpython-312.pyc
+[6.271s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_4/__init__.py to __init__.cpython-312.pyc
+[6.323s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_5/question_5_1_grader.py to question_5_1_grader.cpython-312.pyc
+[6.373s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_5/__init__.py to __init__.cpython-312.pyc
+[6.436s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_6/question_6_1_grader.py to question_6_1_grader.cpython-312.pyc
+[6.497s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/topic_6/__init__.py to __init__.cpython-312.pyc
+[6.554s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/utils/grader.py to grader.cpython-312.pyc
+[6.605s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/utils/__init__.py to __init__.cpython-312.pyc
+[6.651s] byte-compiling /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder/__init__.py to __init__.cpython-312.pyc
+[6.694s] running install_data
+[6.700s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/ament_index
+[6.702s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/ament_index/resource_index
+[6.705s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/ament_index/resource_index/packages
+[6.718s] copying resource/autograder -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/ament_index/resource_index/packages
+[6.742s] copying package.xml -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder
+[6.762s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/launch
+[6.773s] copying launch/test_4_3.launch.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/launch
+[6.814s] copying launch/test_4_4.launch.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/launch
+[6.840s] copying launch/test_5_1.launch.py -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/launch
+[6.875s] creating /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/resources
+[6.886s] copying resources/mask.png -> /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/share/autograder/resources
+[6.909s] running install_egg_info
+[6.961s] Copying ../build/autograder/autograder.egg-info to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages/autograder-0.0.0-py3.12.egg-info
+[7.239s] running install_scripts
+[7.528s] Installing test_topic_1_1 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/autograder
+[7.538s] Installing test_topic_1_2 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/autograder
+[7.551s] Installing test_topic_1_3 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/autograder
+[7.563s] Installing test_topic_1_4 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/autograder
+[7.574s] Installing test_topic_3_2 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/autograder
+[7.589s] Installing test_topic_4_3 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/autograder
+[7.601s] Installing test_topic_4_4 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/autograder
+[7.613s] Installing test_topic_5_1 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/autograder
+[7.626s] Installing test_topic_6_1 script to /home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/autograder
+[7.653s] writing list of installed files to '/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/install.log'
+[7.694s] Invoked command in '/home/ros-tutorial/colcon_ws/src/ros-tutorial/autograder' returned '0': PYTHONPATH=/home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-tutorial/colcon_ws/src/ros-tutorial/install/autograder/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/autograder build --build-base /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/build install --record /home/ros-tutorial/colcon_ws/src/ros-tutorial/build/autograder/install.log --install-scripts $base/lib/autograder --single-version-externally-managed install_data
